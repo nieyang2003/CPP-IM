@@ -1,0 +1,45 @@
+
+syntax = "proto3";
+package push;
+import "msg.proto";
+
+//   client  -------------------
+//     |                   ^
+//     | ProtoReq          |
+//     |                   | ProtoResp
+//     V                   |
+//  msg_gate -------------------
+//     |                   ^
+//     | ProtoReq          |
+//     |                   | ProtoResp
+//     V                   |
+//  msg_gate -------------------
+//     |
+//     | MqMessage
+//     |
+//     V
+//   Kafka
+//     |
+//     | MqMessage
+//     |
+//     V
+//  transfer
+//     |
+//     | PushReq
+//     |
+//     V
+service PushService {
+  rpc Push(msg.PushReq) returns(msg.PushResp);
+}
+//     |
+//     | PushReq
+//     |
+//     V
+service GateService {
+  rpc Push(msg.PushReq) returns(msg.PushResp);
+}
+//     |
+//     | PushReq
+//     |
+//     V
+//  client

@@ -1,18 +1,16 @@
 syntax = "proto3";
 package msg;
 
-message Empty {
-// 空，qt或其它插件可能有不兼容原有empty的情况
-}
-
 /* 好友操作 */
 message FriendCtrl {
   enum Type {
-	FRIEND_ADD  = 0; // 添加
-	FRIEND_DEL  = 1; // 删除
-	FRIEND_AUTH = 2; // 验证好友
+	FRIEND_REQ     = 0; // 添加
+	FRIEND_DEL     = 1; // 删除
+	FRIEND_AUTH_OK = 2; // 验证好友通过
+	FRIEND_AUTH_REJECT = 3; // 验证好友不同过
   }
-  bytes content = 1; // 添加删除的附带信箱，
+  int32 type = 1;
+  bytes content = 2; // 添加删除的附带信箱，
 }
 
 /* 好友状态 */
@@ -22,7 +20,8 @@ message FriendState {
 	ONLINE   = 1;  // 在线
 	OFFLINE  = 2;  // 离线
   }
-  repeated int32 states = 1;
+  int32 type = 1;
+  int32 states = 2;
 }
 
 /* 好友消息 */
@@ -33,6 +32,7 @@ message FriendMsg {
 	PICTURE = 2; // 图片
 	VIDEO   = 3; // 视频
 	FILE    = 4; // 文件
+	CACELED = 5; // 已撤回，用来标识一些数据
   }
   int32 type = 1;
   bytes content = 2;
@@ -51,11 +51,13 @@ message SystemNotify {
 /* 群聊操作 */
 message GroupCtrl {
   enum Type {
-	GROUP_CREATE     = 0; // 创建
-	GROUP_DELETE     = 1; // 删除
-	GROUP_ADD_MEMBER = 2; // 添加好友
-	GROUP_ENTER      = 3; // 进入
-	GROUP_EXIT       = 4; // 退出
+	GROUP_CREATE      = 0; // 创建
+	GROUP_DELETE      = 1; // 删除
+	GROUP_ADD_MEMBER  = 2; // 添加成员
+	GROUP_ENTER       = 3; // 进入
+	GROUP_EXIT        = 4; // 退出
+	GROUP_AUTH_OK     = 5; // 同意入群
+	GROUP_AUTH_REJECT = 6; // 拒绝入群
   }
   int32 type = 2;
   bytes content = 3;
@@ -69,14 +71,22 @@ message GroupMsg {
 	PICTURE = 2; // 图片
 	VIDEO   = 3; // 视频
 	FILE    = 4; // 文件
+	CACELED = 5; // 已撤回
   }
-  bytes content = 8;
+  int32 type = 2;
+  bytes content = 3;
 }
 
 /* 拉取消息 */
 message Pull {
-  uint64 local_seq = 1;
-  uint32 limit = 2;
+  enum Type {
+    PULL_OFFLINE = 0; // 离线消息
+    PULL_HISTORY = 1; // 历史消息
+  }
+  uint64 local_seq = 1; // 本地最大seq号
+  int64  sync_time = 2; // 服务器设置，同步时间
+  int32  type      = 3; // 类型
+  uint32 limit     = 4; // 拉取，同步的条数
 }
 
 /* 登录 */
@@ -86,11 +96,13 @@ message Log {
 	LOGOUT  = 1;  // 主动登出
 	KICKOUT = 2;  // 被服务器踢出
   }
-  string token = 1;
-  string device_id = 2;
+  int32 type = 1;
+  string token = 2;
+  bytes content = 3;
 }
 
-enum ProtoType {
+/* pb类型 */
+enum ProtoReqType {
   TypeEmpty = 0;
   TypeFriendCtrl = 1;
   TypeFriendState = 2;
@@ -102,17 +114,16 @@ enum ProtoType {
   TypeLog = 8;
 }
 
-/* 协议 */
-message Protocol {
+/* pb请求 */
+message ProtoReq {
   enum Version {
 	VERSION_0 = 0;
   }
-  ProtoType type  = 1; // 数据类型
+  ProtoReqType type  = 1; // 数据类型
   uint32 version  = 2; // 协议版本
   uint64 from_uid = 3; // required
   uint64 to_id    = 4; // required
   oneof data {         // required
-	Empty        empty  = 10;
     FriendCtrl   fctrl  = 11;
 	FriendState  fstate = 12;
 	FriendMsg    fmsg   = 13;
@@ -124,26 +135,41 @@ message Protocol {
   }
 }
 
-////////////////////////////////////////////////////////////////////////////////
-
-message MsgInfo {
-  int64  timestamp = 1; // 发送时间，用来排序
-  string msgid     = 2; // 消息唯一id，信箱中存储唯一msgid
+/* pb响应 */
+message ProtoResp {
+  oneof result {
+    int64 timestamp  = 1; // 成功的时间戳
+    int32 error_code = 2; // 错误码
+  }
+  oneof str {
+	string msgid     = 3; // 消息唯一id，信箱中存储唯一msgid
+	string err       = 4;
+  }
 }
 
 ////////////////////////////////////////////////////////////////////////////////
 
-message PushMsg {
-  MsgInfo  info  = 1;
-  Protocol proto = 2;
+/* 写入kafka的数据 */
+message MqMessage {
+  ProtoReq origin_req     = 1; // 原消息
+  ProtoResp handle_result = 2; // 结果
 }
 
-service GateService {
-  rpc Push(PushMsg) returns(Empty);
+/* transfer消费到后需要推送的数据 */
+message PushReq {
+  MqMessage message = 1; // 消息
+  int64     seq     = 2; // 用户的seq号
+  uint64    to_uid  = 3; // 要推送给的用户id
+}
+
+message PushResp {
+// 空
 }
 
 ////////////////////////////////////////////////////////////////////////////////
 
 service LogicService {
-  rpc Handle(Protocol) returns(MsgInfo);
+  rpc Handle(ProtoReq) returns(ProtoResp);
 }
+
+////////////////////////////////////////////////////////////////////////////////

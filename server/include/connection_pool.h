@@ -5,7 +5,7 @@
 #include <condition_variable>
 #include <atomic>
 
-template<typename T>
+template<typename T, typename Deleter = std::default_delete<T>>
 class ConnectionPool {
  public:
   ConnectionPool() = default;
@@ -14,18 +14,19 @@ class ConnectionPool {
     Shutdown();
   }
 
-  std::unique_ptr<T> Acquire() {
+  std::unique_ptr<T, Deleter> Acquire() {
     std::unique_lock<std::mutex> lock(mutex_);
     cond_.wait(lock, [this]() { return is_stop_ || !pool_.empty(); });
     if (is_stop_.load()) {
-	  return nullptr;
+	//   return std::unique_ptr<T, Deleter>(nullptr);
+      return std::unique_ptr<T, Deleter>(nullptr, Deleter());
 	}
     auto conn = std::move(pool_.front());
     pool_.pop();
     return conn;
   }
 
-  void Release(std::unique_ptr<T> conn) {
+  void Release(std::unique_ptr<T, Deleter> conn) {
     std::lock_guard<std::mutex> lock(mutex_);
     pool_.push(std::move(conn));
     cond_.notify_one();
@@ -43,9 +44,9 @@ class ConnectionPool {
   }
 
  protected:
-  virtual std::unique_ptr<T> CreateConnection() = 0;
+  virtual std::unique_ptr<T, Deleter> CreateConnection() = 0;
 
-  std::queue<std::unique_ptr<T>> pool_;
+  std::queue<std::unique_ptr<T, Deleter>> pool_;
   std::mutex mutex_;
   std::condition_variable cond_;
   std::atomic_bool is_stop_ { false };

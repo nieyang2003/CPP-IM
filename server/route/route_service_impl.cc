@@ -1,13 +1,16 @@
 #include "route_service_impl.h"
 #include <gflags/gflags.h>
 #include <optional>
+#include "include/redis_pool.h"
 
 namespace route {
 
 namespace {
 
 DEFINE_string(msg_server_token, "nieyang2003@qq.com", "心跳");
-DEFINE_string(msg_servers, "127.0.0.1:14000", "默认的msg server");
+DEFINE_string(msg_gate_servers, "127.0.0.1:10010", "默认的msg server");
+DEFINE_string(redis_user_prefix, "ychat::user::", "用户redis键");
+DEFINE_string(redis_user_token_prefix, "ychat::user::token::", "用户redis键");
 
 std::optional<std::pair<std::string_view, std::string_view>> TryGetHostPort(const std::string_view& location) {
   auto pos = location.find_last_of(':');
@@ -34,11 +37,24 @@ std::optional<std::string> GetObserved(grpc::ServerContext *context, const std::
   return std::string(peer_ip_port->first) + std::string(reported_ip_port->first);
 }
 
+/// @brief 生成随机token
+std::string GenerateRandomToken(size_t length) {
+  const std::string characters = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+  std::random_device rd;
+  std::mt19937 generator(rd());
+  std::uniform_int_distribution<> distribution(0, characters.size() - 1);
+  std::string token;
+  for (size_t i = 0; i < length; ++i) {
+    token += characters[distribution(generator)];
+  }
+  return token;
+}
+
 } // namespace
 
 RouteServiceImpl::RouteServiceImpl() {
   verifier_ = MakeTokenVerifier(FLAGS_msg_server_token);
-  auto locations = Split(FLAGS_msg_servers, '|', false);
+  auto locations = Split(FLAGS_msg_gate_servers, '|', false);
   for (auto&& location : locations) {
 	auto s = std::make_shared<MsgServer>();
 	s->observed = s->reported = location;
@@ -75,9 +91,10 @@ grpc::Status RouteServiceImpl::DispatchMsgServer(grpc::ServerContext *context, c
   }
 
   if (target) [[likely]] {
-	// TODO: token
+    auto token = GenerateRandomToken(32);
   	response->set_location(target->observed);
-	response->set_token("nieyang2003@qq.com");
+    redis::redis_pool->setex(fmt::format("{}{}", FLAGS_redis_user_token_prefix, request->uid()), 60, token); // 60s
+	response->set_token(token);
 	return grpc::Status::OK;
   } else {
     return grpc::Status(grpc::StatusCode::NOT_FOUND, "没有msg server");

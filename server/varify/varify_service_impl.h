@@ -1,6 +1,6 @@
 #pragma once
-#include "./varify.pb.h"
-#include "./varify.grpc.pb.h"
+#include "proto/varify.pb.h"
+#include "proto/varify.grpc.pb.h"
 
 namespace varify {
 

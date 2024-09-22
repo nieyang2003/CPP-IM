@@ -3,6 +3,7 @@
 #include <chrono>
 #include <random>
 #include <spdlog/spdlog.h>
+#include "proto/msg.pb.h"
 
 inline std::string GenRandString(int length) {
   static const std::string kCharset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
@@ -20,9 +21,12 @@ inline std::string GenRandString(int length) {
 }
 
 /// @brief 生成msgid和1970-1-1以来的ms数
-inline std::pair<std::string, int64_t> GenMsgidAndUnixTime(uint64_t uid) {
+inline msg::ProtoResp GenProtoResp(uint64_t uid) {
   auto ms = std::chrono::duration_cast< std::chrono::milliseconds >(
     std::chrono::system_clock::now().time_since_epoch()
   ).count();
-  return {fmt::format("{}_{}_{}", ms, uid, GenRandString(8)), ms};
+  msg::ProtoResp resp;
+  resp.set_msgid(fmt::format("{}_{}_{}", ms, uid, GenRandString(8)));
+  resp.set_timestamp(ms);
+  return resp;
 }

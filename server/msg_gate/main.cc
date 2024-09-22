@@ -1,35 +1,34 @@
-#include <gflags/gflags.h>
-#include <spdlog/spdlog.h>
 #include <grpcpp/server_builder.h>
 #include <memory>
 #include <thread>
+#include <sw/redis++/redis++.h>
+#include "include/thread_pool.h"
+#include "include/redis_pool.h"
+#include "include/spd_gflag.h"
 #include "ws_app.h"
 #include "user_mgr.h"
-#include "msg_service_impl.h"
+#include "async_logic_client.h"
+#include "gate_server.h"
 
-DEFINE_string(rpc_address, "0.0.0.0:15000", "smtp session最大数量");
+DEFINE_int32(log_level, 0, "日志等级");
+DEFINE_string(service_address, "127.0.0.1:10000", "");
+DEFINE_string(redis_host, "127.0.0.1", "redis host");
 
 int main(int argc, char** argv) {
-  gflags::ParseCommandLineFlags(&argc, &argv, true);
-  spdlog::set_level(spdlog::level::debug);
-
-  // 单例初始化
+  // 初始化配置和日志
+  InitSpdGflag(argc, argv, "gate");
+  // 单例
   msg::msg_gate::UserManager::Instance();
-  // 启动grpc server
-  msg::msg_gate::MsgServiceImpl service;
-  grpc::ServerBuilder builder;
-  builder.AddListeningPort(FLAGS_rpc_address, grpc::InsecureServerCredentials());
-  builder.RegisterService(&service);
-  std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
-  spdlog::info("服务启动，地址：{}", FLAGS_rpc_address);
-  // 简单的线程池
-  std::vector<std::unique_ptr<std::thread>> threads(std::thread::hardware_concurrency());
-  // 启动ws服务
-  msg::msg_gate::RunWsApp(&threads);
-  // grpc等待线程
-  threads.emplace_back(std::make_unique<std::thread>([&server](){ server->Wait(); }));
-  // join
-  std::for_each(threads.begin(), threads.end(), [](std::unique_ptr<std::thread>& t) {
-    t->join();
-  });
+  msg::msg_gate::LogicClient::Instance();
+  msg::msg_gate::GateServer::Instance();
+  // 线程池
+  auto pool = std::make_shared<ThreadPool>();
+  // redis连接池
+  redis::Init(FLAGS_redis_host);
+  // ws_app
+  pool->Enqueue([&](){ msg::msg_gate::RunWsApp(pool, FLAGS_service_address); }); // 占用一个线程
+  // gate_server
+  msg::msg_gate::GateServer::Instance()->Run(FLAGS_service_address, pool); // 阻塞
+
+  return 0;
 }

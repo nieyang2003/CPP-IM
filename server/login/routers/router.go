@@ -19,7 +19,15 @@ func SetupRouter() *gin.Engine {
 	r.POST("/login", controllers.LoginHandler)                   // 登录接口
 	r.POST("/register", controllers.RegisterHandler)             // 注册接口
 	r.POST("/get_varify_code", controllers.GetVerifyCodeHandler) // 获取验证码
+	r.GET("/refresh_token", controllers.RefreshTokenHandler)     // 刷新jwt token
 	// 为后续路由添加 JWT 认证中间件
+	r.Use(controllers.JWTAuthMiddleware())
+	{
+		r.GET("/friend", controllers.GetFriend) // 获取自己的好友
+		r.GET("/friend/:id")                     // 获取对应的好友信息
+		r.GET("/group")                          // 获取自己的群
+		r.GET("/group/:id")                      // 获取对应的群信息
+	}
 
 	// 配置 404 路由，处理未匹配的请求路径
 	r.NoRoute(func(c *gin.Context) {

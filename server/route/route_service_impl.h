@@ -1,8 +1,8 @@
 #pragma once
 #include <mutex>
 #include "include/token_verify.h"
-#include "route.pb.h"
-#include "route.grpc.pb.h"
+#include "proto/route.pb.h"
+#include "proto/route.grpc.pb.h"
 
 namespace route {
 

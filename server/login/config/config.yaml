@@ -2,11 +2,11 @@ mode: "dev"
 port: 8080
 
 varify_server:
-  target: "0.0.0.0:12000"
+  target: "0.0.0.0:10004"
   max_clients: 5
 
 route_server:
-  target: "0.0.0.0:13000"
+  target: "0.0.0.0:10003"
   max_clients: 5
 
 log:

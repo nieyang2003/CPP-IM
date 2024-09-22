@@ -3,7 +3,7 @@
 #include <stdint.h>
 #include <unordered_map>
 #include <mutex>
-#include  "../include/singleton.h"
+#include  "include/singleton.h"
 
 namespace msg::msg_gate {
 
@@ -12,6 +12,7 @@ struct UserData {
   std::string device_id; // 登录地址
 };
 
+/// @brief 本台msg gate server登录的用户数据
 class UserManager : public Singleton<UserManager> {
   friend class Singleton<UserManager>;
  public:

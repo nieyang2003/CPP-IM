@@ -3,8 +3,8 @@
 #include <Poco/Net/SMTPClientSession.h>
 #include <Poco/Timer.h>
 #include <string>
-#include "../include/singleton.h"
-#include "../include/connection_pool.h"
+#include "include/singleton.h"
+#include "include/connection_pool.h"
 
 namespace varify {
 
@@ -16,7 +16,6 @@ class SmtpPoll : protected ConnectionPool<Poco::Net::SMTPClientSession>, public 
  protected:
   SmtpPoll();
   std::unique_ptr<Poco::Net::SMTPClientSession> CreateConnection() override;
-//   void OnTimerReconnect(Poco::Timer& timer);
 
  private:
   Poco::Timer timer_;

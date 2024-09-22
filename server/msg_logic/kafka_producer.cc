@@ -1,28 +1,12 @@
 #include "kafka_producer.h"
 #include <gflags/gflags.h>
 #include <spdlog/spdlog.h>
+#include "logic_server.h"
 
 DEFINE_string(kafka_brokers, "127.0.0.1:9092", "Kafka broker 地址");
-DEFINE_string(topic_outbox, "127.0.0.1:9092", "用户发件箱");
-DEFINE_string(topic_inbox, "127.0.0.1:9092", "用户收件箱");
-
-// TODO: 发件箱topic
+DEFINE_string(kafka_topic, "ychat", "流水线");
 
 namespace logic {
-
-/// @brief kafka消息交付报告回调
-class ReportCb : public RdKafka::DeliveryReportCb {
- public:
-  void dr_cb (RdKafka::Message &message) override {
-	if (message.err()) [[unlikely]] {
-      // TODO:
-	  spdlog::error("交付失败");
-	} else {
-	  // TODO:
-	  spdlog::info("交付成功");
-	}
-  }
-};
 
 bool Producer::Init() {
   // 创建配置对象
@@ -35,9 +19,18 @@ bool Producer::Init() {
     return false;
   }
   // 设置交付回调
-  ReportCb report_cb;
-  if (conf_->set("dr_cb", &report_cb, errstr) != RdKafka::Conf::CONF_OK) {
+  if (conf_->set("dr_cb", &report_cb_, errstr) != RdKafka::Conf::CONF_OK) {
 	spdlog::error("Failed to set delivery report callback: {}", errstr);
+    return false;
+  }
+  // 设置消息重试次数
+  if (conf_->set("retries", "3", errstr) != RdKafka::Conf::CONF_OK) {
+    spdlog::error("Failed to set retries: {}", errstr);
+    return false;
+  }
+  // 设置消息超时时间
+  if (conf_->set("message.timeout.ms", "3000", errstr) != RdKafka::Conf::CONF_OK) {
+    spdlog::error("Failed to set message timeout: {}", errstr);
     return false;
   }
   // 创建 Kafka 生产者实例
@@ -46,25 +39,34 @@ bool Producer::Init() {
 	  spdlog::error("Failed to create producer: {}", errstr);
       return false;
   }
+  // 获取元数据来检查 Kafka 集群状态
+  RdKafka::Metadata* metadata;
+  RdKafka::ErrorCode err = producer_->metadata(true, nullptr, &metadata, 5000);
+  if (err != RdKafka::ERR_NO_ERROR) {
+    spdlog::error("Failed to fetch metadata: {}", RdKafka::err2str(err));
+    return false;
+  }
   // 收件箱topic
-  inbox_topic_handle_.reset(RdKafka::Topic::create(producer_.get(), FLAGS_topic_inbox, tconf_.get(), errstr));
-  if (!inbox_topic_handle_) {
+  topic_handle_.reset(RdKafka::Topic::create(producer_.get(), FLAGS_kafka_topic, tconf_.get(), errstr));
+  if (!topic_handle_) {
 	  spdlog::error("Failed to create topic: {}", errstr);
       return false;
   }
   return true;
 }
 
-bool Producer::ProduceToInbox(std::shared_ptr<msg::PushMsg> msg) {
+bool Producer::Produce(std::shared_ptr<msg::MqMessage> msg) {
+  spdlog::debug("写入kafka");
   std::string payload;
   msg->SerializeToString(&payload);  // 序列化为二进制数据
 
   RdKafka::ErrorCode resp = producer_->produce(
-    inbox_topic_handle_.get(),
+    topic_handle_.get(),
     RdKafka::Topic::PARTITION_UA,
     RdKafka::Producer::RK_MSG_COPY /* 可以替换为 RK_MSG_FREE 以减少内存拷贝 */,
     const_cast<char*>(payload.data()), payload.size(),
-    nullptr, nullptr);
+    &msg->handle_result().msgid(),
+    nullptr);
 
   if (resp != RdKafka::ERR_NO_ERROR) {
     spdlog::error("Failed to produce message: {}", RdKafka::err2str(resp));
@@ -73,6 +75,8 @@ bool Producer::ProduceToInbox(std::shared_ptr<msg::PushMsg> msg) {
 
   // 检查并处理生产者的事件，立即返回
   producer_->poll(0);
+//   producer_->poll(100);
+  spdlog::info("已写入kafka发送队列");
   return true;
 }
 

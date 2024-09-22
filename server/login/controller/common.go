@@ -8,15 +8,11 @@ import (
 )
 
 type ErrResp struct {
-	Code int32       `json:"code"`
+	Code ErrorCode   `json:"code"`
 	Msg  interface{} `json:"msg"`
 }
 
-const (
-	CodeSuccess int32 = 0
-)
-
-func ReturnError(c *gin.Context, code int32, msg interface{}) {
+func ReturnError(c *gin.Context, code ErrorCode, msg interface{}) {
 	json := &ErrResp{
 		Code: code,
 		Msg:  msg,

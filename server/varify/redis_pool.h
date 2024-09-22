@@ -3,8 +3,8 @@
 #include <gflags/gflags.h>
 #include <optional>
 #include <sw/redis++/redis++.h>
-#include "../include/singleton.h"
-#include "../include/connection_pool.h"
+#include "include/singleton.h"
+#include "include/connection_pool.h"
 
 namespace varify {
 

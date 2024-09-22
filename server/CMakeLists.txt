@@ -1,3 +1,7 @@
+add_subdirectory(proto)
 add_subdirectory(varify)
 add_subdirectory(route)
 add_subdirectory(msg_gate)
+add_subdirectory(msg_logic)
+add_subdirectory(push)
+add_subdirectory(transfer)

@@ -18,10 +18,10 @@ func encryptMD5(data []byte) string {
 // * 把redis放在这里了
 
 func Register(user *models.RegisterRequest) (err error) {
-	sqlStr := "select count(user_id) from user where username = ?"
+	sqlStr := "select count(user_id) from user where email = ?"
 	var count int64
 	// 查询
-	err = db.Get(&count, sqlStr, user.UserName)
+	err = db.Get(&count, sqlStr, user.Email)
 	if err != nil && err != sql.ErrNoRows {
 		return err
 	}
