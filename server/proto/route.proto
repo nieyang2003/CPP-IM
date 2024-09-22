@@ -1,0 +1,76 @@
+syntax = "proto3";
+package route;
+
+// 查看shell脚本
+option go_package = ".;pb";
+
+// TODO: 将强一致性算法引入后每个请求都要加token
+
+////////////////////////////////////////
+// 验证客户端是否可以登录
+
+message LoginRequest {
+  uint64 uid = 1;
+  string token = 2;
+}
+
+message LoginResponse {
+  // 空
+}
+
+////////////////////////////////////////
+// 分发msg服务器
+
+message DispatchMsgServerRequest {
+  uint64 uid = 1;
+  string ip = 2;
+}
+
+message DispatchMsgServerResponse {
+  string location = 1;
+  string token = 3;
+}
+
+////////////////////////////////////////
+// msg server心跳
+
+message HeartBeatRequest {
+  string reported = 1;
+//   string token = 2;
+  repeated uint64 uids = 3;
+}
+
+message HeartBeatResponse {
+  string token = 1;
+}
+
+////////////////////////////////////////
+// 由uid获得用户
+
+message GetMsgServerRequest {
+  uint64 uid = 1;
+//   string token = 2;
+}
+
+message GetMsgServerResponse {
+  // 大部分情况为1个
+  // 没有找到则全部发出去，msg server并不多，“惊群效应”不明显
+  // 找不到的情况也不多，小概率中的小概率
+  repeated string locations = 1;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+
+service RouteService {
+  // msg server 验证
+  rpc Login(LoginRequest) returns(LoginResponse);
+
+  // login server获取
+  rpc DispatchMsgServer (DispatchMsgServerRequest) returns (DispatchMsgServerResponse);
+
+  // msg server心跳或注册自己
+  rpc MsgServerHeartBeat (HeartBeatRequest) returns (HeartBeatResponse);
+
+  // transfer 向所有msg推送，
+  rpc GetMsgServer(GetMsgServerRequest) returns (GetMsgServerResponse);
+}

@@ -1,0 +1,34 @@
+mode: "dev"
+port: 8080
+
+varify_server:
+  target: "0.0.0.0:12000"
+  max_clients: 5
+
+route_server:
+  target: "0.0.0.0:13000"
+  max_clients: 5
+
+log:
+  level: "debug"
+  filename: "./log/gate_server.log"
+  max_size: 100
+  max_age: 3600
+  max_backups: 5
+
+redis:
+  host: 127.0.0.1
+  port: 6379
+  db: 0
+
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  password: 123456
+  db: ychat
+  max_open_conns: 100
+  max_idle_conns: 20
+
+snowflake:
+  machine_id: 1

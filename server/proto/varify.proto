@@ -1,0 +1,18 @@
+syntax = "proto3";
+package varify;
+
+// 查看shell脚本
+option go_package = ".;pb";
+
+message GetVarifyCodeRequest {
+  string email = 1;
+  bool if_send = 2;
+}
+
+message GetVarifyCodeResponse {
+  string code  = 3;
+}
+
+service VarifyService {
+  rpc GetVarifyCode (GetVarifyCodeRequest) returns (GetVarifyCodeResponse) {}
+}

@@ -1,0 +1,935 @@
+{"level":"INFO","time":"2024-08-11T08:44:19.080+0800","caller":"logger/logger.go:36","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-11T08:53:20.267+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-11T09:09:27.840+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-11T09:10:43.721+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-11T09:42:40.535+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-11T10:08:16.802+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-11T10:10:08.899+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-11T10:10:12.218+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-11T10:10:52.571+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-11T10:14:20.641+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-11T10:14:24.406+0800","caller":"controller/user.go:27","msg":"邮箱：","email":"nieyang2003@qq.com"}
+{"level":"INFO","time":"2024-08-11T10:17:31.650+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-11T14:48:19.441+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-11T14:48:48.218+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000114494}
+{"level":"INFO","time":"2024-08-11T14:48:48.389+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000042039}
+{"level":"INFO","time":"2024-08-11T14:49:07.569+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00004272}
+{"level":"INFO","time":"2024-08-11T14:49:08.078+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000043712}
+{"level":"INFO","time":"2024-08-11T14:49:08.438+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000041869}
+{"level":"INFO","time":"2024-08-11T14:49:08.631+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000048992}
+{"level":"INFO","time":"2024-08-11T14:49:08.828+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00004264}
+{"level":"INFO","time":"2024-08-11T14:49:09.019+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000041818}
+{"level":"INFO","time":"2024-08-11T14:49:09.203+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000050735}
+{"level":"INFO","time":"2024-08-11T14:49:09.386+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000041408}
+{"level":"INFO","time":"2024-08-11T14:49:09.570+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000043402}
+{"level":"INFO","time":"2024-08-11T14:49:09.745+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000046227}
+{"level":"INFO","time":"2024-08-11T14:49:09.931+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000042409}
+{"level":"INFO","time":"2024-08-11T14:49:10.131+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000048811}
+{"level":"INFO","time":"2024-08-11T14:49:10.337+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000049813}
+{"level":"INFO","time":"2024-08-11T14:49:10.530+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000041327}
+{"level":"INFO","time":"2024-08-11T14:49:10.738+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000041919}
+{"level":"INFO","time":"2024-08-11T14:49:10.918+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000042359}
+{"level":"INFO","time":"2024-08-11T14:49:11.193+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000048711}
+{"level":"INFO","time":"2024-08-11T15:46:43.444+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-11T15:49:26.990+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-11T15:55:34.123+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-11T15:55:52.065+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000108603}
+{"level":"INFO","time":"2024-08-11T15:56:08.436+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-11T15:56:10.710+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000148498}
+{"level":"INFO","time":"2024-08-11T15:56:23.671+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00004809}
+{"level":"INFO","time":"2024-08-11T15:56:24.762+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000043842}
+{"level":"INFO","time":"2024-08-11T15:56:34.485+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000049994}
+{"level":"INFO","time":"2024-08-11T15:56:34.675+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00004792}
+{"level":"INFO","time":"2024-08-11T15:56:34.871+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000271446}
+{"level":"INFO","time":"2024-08-11T15:56:35.042+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000050424}
+{"level":"INFO","time":"2024-08-11T15:56:35.234+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000049373}
+{"level":"INFO","time":"2024-08-11T15:56:35.416+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000051086}
+{"level":"INFO","time":"2024-08-11T15:56:35.607+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000049473}
+{"level":"INFO","time":"2024-08-11T15:56:35.794+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000044453}
+{"level":"INFO","time":"2024-08-11T15:56:35.974+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000048681}
+{"level":"INFO","time":"2024-08-11T15:56:36.158+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000046236}
+{"level":"INFO","time":"2024-08-11T15:56:36.359+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000050394}
+{"level":"INFO","time":"2024-08-11T15:56:36.531+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00004795}
+{"level":"INFO","time":"2024-08-11T15:56:36.706+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000050995}
+{"level":"INFO","time":"2024-08-11T15:56:36.890+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000042189}
+{"level":"INFO","time":"2024-08-11T15:56:37.065+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000041207}
+{"level":"INFO","time":"2024-08-11T15:56:37.250+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000045886}
+{"level":"INFO","time":"2024-08-11T15:56:37.440+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00005996}
+{"level":"INFO","time":"2024-08-11T15:56:37.770+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000047239}
+{"level":"INFO","time":"2024-08-11T15:56:37.982+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000046807}
+{"level":"INFO","time":"2024-08-11T15:56:38.206+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000056566}
+{"level":"INFO","time":"2024-08-11T15:56:38.389+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000045706}
+{"level":"INFO","time":"2024-08-11T15:56:38.560+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000054212}
+{"level":"INFO","time":"2024-08-11T15:56:38.746+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000051406}
+{"level":"INFO","time":"2024-08-11T16:08:41.833+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-11T16:08:46.632+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000147266}
+{"level":"INFO","time":"2024-08-11T16:09:26.522+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-11T16:09:29.658+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000150872}
+{"level":"INFO","time":"2024-08-11T16:09:47.972+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-11T16:09:51.293+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000171691}
+{"level":"INFO","time":"2024-08-11T16:09:53.226+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00007451}
+{"level":"INFO","time":"2024-08-11T16:14:26.322+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"ERROR","time":"2024-08-11T16:14:29.093+0800","caller":"logic/user.go:15","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-11T16:14:29.093+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000216185}
+{"level":"INFO","time":"2024-08-12T09:33:33.921+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"ERROR","time":"2024-08-12T09:33:53.003+0800","caller":"logic/user.go:15","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T09:33:53.003+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00716517}
+{"level":"ERROR","time":"2024-08-12T09:34:34.429+0800","caller":"logic/user.go:15","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T09:34:34.429+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":16.090574623}
+{"level":"ERROR","time":"2024-08-12T09:58:16.632+0800","caller":"logic/user.go:15","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T09:58:16.632+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000450315}
+{"level":"ERROR","time":"2024-08-12T09:58:53.428+0800","caller":"logic/user.go:15","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T09:58:53.428+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000163516}
+{"level":"ERROR","time":"2024-08-12T10:01:10.724+0800","caller":"logic/user.go:15","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T10:01:10.724+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00017064}
+{"level":"ERROR","time":"2024-08-12T10:01:11.718+0800","caller":"logic/user.go:15","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T10:01:11.718+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000156444}
+{"level":"ERROR","time":"2024-08-12T10:01:11.886+0800","caller":"logic/user.go:15","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T10:01:11.886+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000167915}
+{"level":"ERROR","time":"2024-08-12T10:01:12.056+0800","caller":"logic/user.go:15","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T10:01:12.056+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000155872}
+{"level":"ERROR","time":"2024-08-12T10:01:12.220+0800","caller":"logic/user.go:15","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T10:01:12.220+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000143139}
+{"level":"ERROR","time":"2024-08-12T10:01:12.391+0800","caller":"logic/user.go:15","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T10:01:12.391+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00013872}
+{"level":"ERROR","time":"2024-08-12T10:01:12.566+0800","caller":"logic/user.go:15","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T10:01:12.566+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000144921}
+{"level":"ERROR","time":"2024-08-12T10:01:12.742+0800","caller":"logic/user.go:15","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T10:01:12.742+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000176931}
+{"level":"ERROR","time":"2024-08-12T10:01:12.904+0800","caller":"logic/user.go:15","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T10:01:12.904+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000152556}
+{"level":"ERROR","time":"2024-08-12T10:01:13.064+0800","caller":"logic/user.go:15","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T10:01:13.064+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00014392}
+{"level":"INFO","time":"2024-08-12T10:02:18.025+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.580452644}
+{"level":"INFO","time":"2024-08-12T10:05:25.508+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.655233007}
+{"level":"INFO","time":"2024-08-12T10:10:36.393+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.531575879}
+{"level":"INFO","time":"2024-08-12T10:11:53.842+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.09747055}
+{"level":"INFO","time":"2024-08-12T10:11:59.624+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.175426309}
+{"level":"INFO","time":"2024-08-12T10:12:27.977+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.567501928}
+{"level":"INFO","time":"2024-08-12T10:23:01.901+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-12T10:23:15.781+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.520745442}
+{"level":"INFO","time":"2024-08-12T10:48:11.975+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.571669323}
+{"level":"INFO","time":"2024-08-12T11:08:47.080+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.009240841}
+{"level":"INFO","time":"2024-08-12T11:09:00.269+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000619804}
+{"level":"ERROR","time":"2024-08-12T11:09:30.903+0800","caller":"logic/user.go:15","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T11:09:30.903+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000354434}
+{"level":"INFO","time":"2024-08-12T11:09:34.848+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.72017016}
+{"level":"INFO","time":"2024-08-12T11:14:18.134+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-12T11:24:37.362+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.004860018}
+{"level":"INFO","time":"2024-08-12T11:35:56.053+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.509638347}
+{"level":"INFO","time":"2024-08-12T11:36:04.730+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.539748085}
+{"level":"INFO","time":"2024-08-12T11:36:09.081+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.498983346}
+{"level":"INFO","time":"2024-08-12T11:36:11.749+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.552520572}
+{"level":"INFO","time":"2024-08-12T11:36:14.355+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.509438003}
+{"level":"INFO","time":"2024-08-12T11:43:15.867+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.609313409}
+{"level":"ERROR","time":"2024-08-12T12:18:52.138+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T12:18:52.138+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00472834}
+{"level":"ERROR","time":"2024-08-12T12:18:58.962+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T12:18:58.962+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000781585}
+{"level":"ERROR","time":"2024-08-12T12:19:00.268+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T12:19:00.268+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000723196}
+{"level":"ERROR","time":"2024-08-12T12:19:03.935+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T12:19:03.935+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":3.000604153}
+{"level":"ERROR","time":"2024-08-12T12:19:04.902+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T12:19:04.902+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":3.000785458}
+{"level":"ERROR","time":"2024-08-12T12:19:05.388+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T12:19:05.388+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":3.000755498}
+{"level":"ERROR","time":"2024-08-12T12:19:05.896+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T12:19:05.896+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":3.000538085}
+{"level":"INFO","time":"2024-08-12T12:21:29.935+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.58575704}
+{"level":"INFO","time":"2024-08-12T12:21:53.928+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.609769966}
+{"level":"INFO","time":"2024-08-12T12:22:53.665+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.602951164}
+{"level":"INFO","time":"2024-08-12T12:22:57.665+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.576226074}
+{"level":"INFO","time":"2024-08-12T12:30:32.485+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.571027061}
+{"level":"INFO","time":"2024-08-12T12:42:01.196+0800","caller":"logger/logger.go:88","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000001052}
+{"level":"INFO","time":"2024-08-12T12:42:22.662+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.57465484}
+{"level":"INFO","time":"2024-08-12T12:43:39.476+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.551773105}
+{"level":"INFO","time":"2024-08-12T12:44:26.184+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.523237613}
+{"level":"INFO","time":"2024-08-12T12:44:27.372+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.565614312}
+{"level":"ERROR","time":"2024-08-12T12:44:30.960+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T12:44:30.960+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":3.002532747}
+{"level":"ERROR","time":"2024-08-12T12:44:42.272+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T12:44:42.272+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":2.999890987}
+{"level":"ERROR","time":"2024-08-12T12:44:55.545+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T12:44:55.545+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":2.99983444}
+{"level":"INFO","time":"2024-08-12T12:47:05.900+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.580093203}
+{"level":"INFO","time":"2024-08-12T12:48:58.312+0800","caller":"logger/logger.go:88","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000001372}
+{"level":"INFO","time":"2024-08-12T15:19:46.451+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"ERROR","time":"2024-08-12T15:20:08.729+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T15:20:08.729+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000708969}
+{"level":"INFO","time":"2024-08-12T15:20:23.184+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.473860163}
+{"level":"INFO","time":"2024-08-12T15:37:46.129+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.578408191}
+{"level":"ERROR","time":"2024-08-12T16:14:16.572+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T16:14:16.572+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001660381}
+{"level":"ERROR","time":"2024-08-12T16:14:19.958+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T16:14:19.958+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000747129}
+{"level":"ERROR","time":"2024-08-12T16:14:23.377+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T16:14:23.377+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000768634}
+{"level":"ERROR","time":"2024-08-12T16:14:26.188+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T16:14:26.189+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00092685}
+{"level":"ERROR","time":"2024-08-12T16:14:29.919+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T16:14:29.919+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":3.000280026}
+{"level":"ERROR","time":"2024-08-12T16:14:30.127+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T16:14:30.127+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":3.000725365}
+{"level":"ERROR","time":"2024-08-12T16:14:30.462+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T16:14:30.462+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":3.000337587}
+{"level":"ERROR","time":"2024-08-12T16:14:30.654+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T16:14:30.654+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":3.000549062}
+{"level":"ERROR","time":"2024-08-12T16:14:30.972+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T16:14:30.972+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":3.000406873}
+{"level":"ERROR","time":"2024-08-12T16:14:32.919+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T16:14:32.919+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":4.776414313}
+{"level":"ERROR","time":"2024-08-12T16:14:33.127+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T16:14:33.127+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":3.207160128}
+{"level":"ERROR","time":"2024-08-12T16:14:33.462+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T16:14:33.462+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":3.33438102}
+{"level":"ERROR","time":"2024-08-12T16:14:33.654+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T16:14:33.654+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":3.190892742}
+{"level":"ERROR","time":"2024-08-12T16:14:33.972+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T16:14:33.972+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":3.317360695}
+{"level":"ERROR","time":"2024-08-12T16:15:14.851+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T16:15:14.851+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":3.000292222}
+{"level":"ERROR","time":"2024-08-12T16:15:22.964+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T16:15:22.964+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001548023}
+{"level":"ERROR","time":"2024-08-12T16:15:55.448+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T16:15:55.449+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000317167}
+{"level":"INFO","time":"2024-08-12T16:16:04.621+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.600273797}
+{"level":"ERROR","time":"2024-08-12T16:17:46.700+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T16:17:46.700+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001541704}
+{"level":"ERROR","time":"2024-08-12T16:17:51.783+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T16:17:51.783+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000729288}
+{"level":"ERROR","time":"2024-08-12T16:19:10.555+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T16:19:10.555+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001742189}
+{"level":"INFO","time":"2024-08-12T16:23:20.644+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.602176249}
+{"level":"INFO","time":"2024-08-12T16:25:06.549+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.57547954}
+{"level":"INFO","time":"2024-08-12T17:39:09.257+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.601021098}
+{"level":"INFO","time":"2024-08-12T17:42:37.826+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.634375048}
+{"level":"INFO","time":"2024-08-12T17:42:41.775+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000690779}
+{"level":"INFO","time":"2024-08-12T17:47:52.363+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.621709839}
+{"level":"INFO","time":"2024-08-12T17:47:54.988+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000690758}
+{"level":"INFO","time":"2024-08-12T17:47:56.710+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000811092}
+{"level":"INFO","time":"2024-08-12T17:47:57.508+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000645738}
+{"level":"INFO","time":"2024-08-12T17:47:57.892+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000629934}
+{"level":"INFO","time":"2024-08-12T17:47:58.139+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000595781}
+{"level":"INFO","time":"2024-08-12T17:47:58.363+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000603867}
+{"level":"INFO","time":"2024-08-12T17:47:58.646+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000603616}
+{"level":"INFO","time":"2024-08-12T17:49:12.734+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000752276}
+{"level":"INFO","time":"2024-08-12T17:49:24.353+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000717048}
+{"level":"INFO","time":"2024-08-12T17:49:25.612+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000637567}
+{"level":"INFO","time":"2024-08-12T17:49:25.791+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000626567}
+{"level":"INFO","time":"2024-08-12T17:49:25.969+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00064398}
+{"level":"INFO","time":"2024-08-12T17:49:26.187+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00059595}
+{"level":"INFO","time":"2024-08-12T17:49:26.367+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000620476}
+{"level":"INFO","time":"2024-08-12T17:49:26.553+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000608403}
+{"level":"INFO","time":"2024-08-12T17:49:26.743+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000612984}
+{"level":"INFO","time":"2024-08-12T17:49:26.923+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000619558}
+{"level":"INFO","time":"2024-08-12T17:49:27.110+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000634898}
+{"level":"INFO","time":"2024-08-12T17:49:27.273+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000615479}
+{"level":"INFO","time":"2024-08-12T17:49:27.457+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000652987}
+{"level":"INFO","time":"2024-08-12T17:49:27.631+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000609936}
+{"level":"INFO","time":"2024-08-12T17:49:27.809+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000647557}
+{"level":"INFO","time":"2024-08-12T17:49:27.991+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000607152}
+{"level":"INFO","time":"2024-08-12T17:49:28.180+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000597373}
+{"level":"INFO","time":"2024-08-12T17:49:28.342+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000646358}
+{"level":"INFO","time":"2024-08-12T17:49:28.518+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00057464}
+{"level":"INFO","time":"2024-08-12T17:49:28.702+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000639878}
+{"level":"INFO","time":"2024-08-12T17:49:28.880+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000615658}
+{"level":"INFO","time":"2024-08-12T17:49:29.077+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000624152}
+{"level":"INFO","time":"2024-08-12T17:49:29.250+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000645356}
+{"level":"INFO","time":"2024-08-12T17:49:29.425+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000674989}
+{"level":"INFO","time":"2024-08-12T17:49:29.614+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000581093}
+{"level":"INFO","time":"2024-08-12T17:49:29.790+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000617964}
+{"level":"INFO","time":"2024-08-12T17:49:29.980+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000625637}
+{"level":"INFO","time":"2024-08-12T17:49:30.136+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00060682}
+{"level":"INFO","time":"2024-08-12T17:49:30.314+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000626698}
+{"level":"INFO","time":"2024-08-12T17:49:30.495+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000610729}
+{"level":"INFO","time":"2024-08-12T17:49:30.687+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000629433}
+{"level":"INFO","time":"2024-08-12T17:49:30.909+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000624893}
+{"level":"INFO","time":"2024-08-12T17:49:31.089+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000619605}
+{"level":"INFO","time":"2024-08-12T17:49:31.261+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00063315}
+{"level":"INFO","time":"2024-08-12T17:54:22.309+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.642505655}
+{"level":"INFO","time":"2024-08-12T18:59:36.981+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":1.148111079}
+{"level":"INFO","time":"2024-08-12T18:59:49.633+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001062934}
+{"level":"INFO","time":"2024-08-12T18:59:50.225+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000608982}
+{"level":"INFO","time":"2024-08-12T18:59:50.458+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00062422}
+{"level":"INFO","time":"2024-08-12T18:59:50.650+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000587291}
+{"level":"INFO","time":"2024-08-12T19:00:19.533+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000678943}
+{"level":"INFO","time":"2024-08-12T19:00:19.965+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000644059}
+{"level":"INFO","time":"2024-08-12T19:00:21.451+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000627447}
+{"level":"INFO","time":"2024-08-12T19:00:22.002+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000689258}
+{"level":"INFO","time":"2024-08-12T19:00:22.248+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000599449}
+{"level":"INFO","time":"2024-08-12T19:00:22.454+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000600397}
+{"level":"INFO","time":"2024-08-12T19:00:22.649+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000608191}
+{"level":"INFO","time":"2024-08-12T19:00:22.871+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000622447}
+{"level":"INFO","time":"2024-08-12T19:00:23.048+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00066086}
+{"level":"INFO","time":"2024-08-12T19:00:23.230+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000657062}
+{"level":"INFO","time":"2024-08-12T19:00:23.424+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000616766}
+{"level":"INFO","time":"2024-08-12T19:00:23.627+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000629702}
+{"level":"INFO","time":"2024-08-12T19:00:23.827+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000640744}
+{"level":"INFO","time":"2024-08-12T19:00:24.023+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000617879}
+{"level":"INFO","time":"2024-08-12T19:00:24.214+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000622378}
+{"level":"INFO","time":"2024-08-12T19:00:24.410+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000619411}
+{"level":"INFO","time":"2024-08-12T19:00:24.603+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000649292}
+{"level":"INFO","time":"2024-08-12T19:00:24.824+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000559459}
+{"level":"INFO","time":"2024-08-12T19:00:24.999+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000604884}
+{"level":"INFO","time":"2024-08-12T19:00:25.196+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000652279}
+{"level":"INFO","time":"2024-08-12T19:00:25.376+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000652423}
+{"level":"INFO","time":"2024-08-12T19:00:25.566+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000628468}
+{"level":"INFO","time":"2024-08-12T19:00:25.744+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000584125}
+{"level":"INFO","time":"2024-08-12T19:00:25.942+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000607443}
+{"level":"INFO","time":"2024-08-12T19:00:26.143+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000606707}
+{"level":"INFO","time":"2024-08-12T19:00:26.334+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000635777}
+{"level":"INFO","time":"2024-08-12T19:00:26.534+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000631344}
+{"level":"INFO","time":"2024-08-12T19:00:26.734+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000587793}
+{"level":"INFO","time":"2024-08-12T19:00:26.975+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000665514}
+{"level":"INFO","time":"2024-08-12T19:00:27.191+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000654647}
+{"level":"INFO","time":"2024-08-12T19:00:27.507+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000614953}
+{"level":"INFO","time":"2024-08-12T19:00:27.840+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000636164}
+{"level":"INFO","time":"2024-08-12T19:01:44.051+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-12T19:01:49.324+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000932009}
+{"level":"INFO","time":"2024-08-12T19:01:53.113+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000886444}
+{"level":"INFO","time":"2024-08-12T19:01:53.671+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000654697}
+{"level":"INFO","time":"2024-08-12T19:01:53.981+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00068787}
+{"level":"INFO","time":"2024-08-12T19:01:54.281+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000642916}
+{"level":"INFO","time":"2024-08-12T19:01:54.517+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000588944}
+{"level":"DEBUG","time":"2024-08-12T19:02:05.974+0800","caller":"controller/user.go:13","msg":"收到注册消息"}
+{"level":"INFO","time":"2024-08-12T19:02:05.974+0800","caller":"logger/logger.go:88","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000080822}
+{"level":"DEBUG","time":"2024-08-12T19:16:46.866+0800","caller":"controller/user.go:13","msg":"收到注册消息"}
+{"level":"INFO","time":"2024-08-12T19:16:46.867+0800","caller":"logger/logger.go:88","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000082706}
+{"level":"INFO","time":"2024-08-12T19:31:51.228+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.991454221}
+{"level":"ERROR","time":"2024-08-12T19:49:51.991+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T19:49:51.992+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":3.00132179}
+{"level":"ERROR","time":"2024-08-12T19:50:29.243+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T19:50:29.243+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":3.000281903}
+{"level":"INFO","time":"2024-08-12T19:50:57.934+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":1.084095338}
+{"level":"ERROR","time":"2024-08-12T19:55:49.695+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-12T19:55:49.695+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000326002}
+{"level":"INFO","time":"2024-08-12T19:57:12.187+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.583886486}
+{"level":"INFO","time":"2024-08-12T21:10:53.880+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":1.072201461}
+{"level":"INFO","time":"2024-08-12T21:11:42.632+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000642395}
+{"level":"INFO","time":"2024-08-12T21:14:40.990+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.904330434}
+{"level":"INFO","time":"2024-08-12T21:36:34.134+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":1.04674446}
+{"level":"INFO","time":"2024-08-12T21:38:34.185+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000752441}
+{"level":"INFO","time":"2024-08-12T22:27:27.867+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":1.224804812}
+{"level":"INFO","time":"2024-08-14T10:33:13.682+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"DEBUG","time":"2024-08-14T10:33:47.163+0800","caller":"controller/user.go:13","msg":"收到注册消息"}
+{"level":"INFO","time":"2024-08-14T10:33:47.163+0800","caller":"logger/logger.go:88","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000078868}
+{"level":"INFO","time":"2024-08-14T10:47:16.581+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"DEBUG","time":"2024-08-14T10:47:18.584+0800","caller":"controller/user.go:14","msg":"收到注册消息"}
+{"level":"INFO","time":"2024-08-14T10:47:18.584+0800","caller":"logger/logger.go:88","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000188293}
+{"level":"INFO","time":"2024-08-14T10:53:21.854+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"DEBUG","time":"2024-08-14T10:53:24.240+0800","caller":"controller/user.go:13","msg":"收到注册消息"}
+{"level":"DEBUG","time":"2024-08-14T10:53:24.240+0800","caller":"controller/user.go:15","msg":"","body":"{\n    \"confirm\": \"570ad42803e8dbef2fefb81fa812baff\",\n    \"email\": \"nieyang2003@qq.com\",\n    \"name\": \"123456\",\n    \"password\": \"570ad42803e8dbef2fefb81fa812baff\",\n    \"salt\": \"`j#w4|AR+V[H9OR.\",\n    \"sex\": 0,\n    \"user\": \"123456\",\n    \"varifycode\": \"123\"\n}\n"}
+{"level":"INFO","time":"2024-08-14T10:53:24.240+0800","caller":"logger/logger.go:88","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000135176}
+{"level":"INFO","time":"2024-08-14T11:33:59.498+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-14T11:40:14.081+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-14T15:18:58.629+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"DEBUG","time":"2024-08-14T15:19:08.848+0800","caller":"controller/user.go:14","msg":"收到注册消息","body":"{\n    \"confirm\": \"b50b880d96569ff71db23ba842e5e720\",\n    \"email\": \"nieyang2003@qq.com\",\n    \"name\": \"123456\",\n    \"password\": \"b50b880d96569ff71db23ba842e5e720\",\n    \"salt\": \"#C@9tRfd1R2X.-C5\",\n    \"sex\": 0,\n    \"user\": \"123456\",\n    \"varifycode\": \"123\"\n}\n"}
+{"level":"ERROR","time":"2024-08-14T15:19:08.848+0800","caller":"controller/user.go:18","msg":"消息格式错误"}
+{"level":"INFO","time":"2024-08-14T15:19:08.848+0800","caller":"logger/logger.go:88","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000142677}
+{"level":"INFO","time":"2024-08-14T15:20:09.670+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"DEBUG","time":"2024-08-14T15:20:13.578+0800","caller":"controller/user.go:14","msg":"收到注册消息","body":"{\n    \"confirm\": \"49576dfc487c412f0b151772dd1ec299\",\n    \"email\": \"nieyang2003@qq.com\",\n    \"name\": \"123456\",\n    \"password\": \"49576dfc487c412f0b151772dd1ec299\",\n    \"salt\": \"\\\\.40`G!P8Gqv]1NQ\",\n    \"sex\": 0,\n    \"user\": \"123456\",\n    \"varifycode\": \"123\"\n}\n"}
+{"level":"ERROR","time":"2024-08-14T15:20:13.578+0800","caller":"controller/user.go:18","msg":"解析json失败"}
+{"level":"INFO","time":"2024-08-14T15:20:13.578+0800","caller":"logger/logger.go:88","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000489276}
+{"level":"DEBUG","time":"2024-08-14T15:25:06.763+0800","caller":"controller/user.go:14","msg":"收到注册消息","body":"{\n    \"confirm\": \"6ce9aa946edab2a59a7f6b24c9c5a59b\",\n    \"email\": \"nieyang2003@qq.com\",\n    \"password\": \"6ce9aa946edab2a59a7f6b24c9c5a59b\",\n    \"salt\": \"Bigf_0j[Q{<l{uQ{\",\n    \"sex\": 0,\n    \"username\": \"123456\",\n    \"varify\": \"123456\"\n}\n"}
+{"level":"ERROR","time":"2024-08-14T15:25:06.764+0800","caller":"controller/user.go:18","msg":"解析json失败"}
+{"level":"INFO","time":"2024-08-14T15:25:06.764+0800","caller":"logger/logger.go:88","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000496109}
+{"level":"DEBUG","time":"2024-08-14T15:26:14.332+0800","caller":"controller/user.go:14","msg":"收到注册消息","body":"{\n    \"confirm\": \"d38e5a7d1ccb709b3f3dbe910c89e350\",\n    \"email\": \"nieyang2003@qq.com\",\n    \"password\": \"d38e5a7d1ccb709b3f3dbe910c89e350\",\n    \"salt\": \"umX8'H)tMWA<3P|X\",\n    \"sex\": 0,\n    \"username\": \"123456\",\n    \"varify\": \"123456\"\n}\n"}
+{"level":"ERROR","time":"2024-08-14T15:26:14.332+0800","caller":"controller/user.go:18","msg":"解析json失败"}
+{"level":"INFO","time":"2024-08-14T15:26:14.333+0800","caller":"logger/logger.go:88","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000178454}
+{"level":"INFO","time":"2024-08-14T15:33:32.100+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"DEBUG","time":"2024-08-14T15:33:53.579+0800","caller":"controller/user.go:14","msg":"收到注册消息","body":"{\n    \"confirm\": \"e10adc3949ba59abbe56e057f20f883e\",\n    \"email\": \"nieyang2003@qq.com\",\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\n    \"sex\": 0,\n    \"username\": \"123456\",\n    \"varify_code\": \"123456\"\n}\n"}
+{"level":"ERROR","time":"2024-08-14T15:33:53.579+0800","caller":"controller/user.go:18","msg":"解析json失败"}
+{"level":"INFO","time":"2024-08-14T15:33:53.579+0800","caller":"logger/logger.go:88","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000197019}
+{"level":"INFO","time":"2024-08-14T15:35:10.771+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"ERROR","time":"2024-08-14T15:35:13.064+0800","caller":"controller/user.go:35","msg":"验证码验证失败"}
+{"level":"INFO","time":"2024-08-14T15:35:13.064+0800","caller":"logger/logger.go:88","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000922489}
+{"level":"ERROR","time":"2024-08-14T15:37:15.273+0800","caller":"controller/user.go:35","msg":"验证码验证失败"}
+{"level":"INFO","time":"2024-08-14T15:37:15.275+0800","caller":"logger/logger.go:88","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.002225102}
+{"level":"INFO","time":"2024-08-14T15:38:43.156+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"ERROR","time":"2024-08-14T15:38:45.762+0800","caller":"controller/user.go:35","msg":"获取验证码失败"}
+{"level":"INFO","time":"2024-08-14T15:38:45.762+0800","caller":"logger/logger.go:88","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000358329}
+{"level":"ERROR","time":"2024-08-14T15:40:32.030+0800","caller":"logic/user.go:21","msg":"GetVarifyCode failed"}
+{"level":"INFO","time":"2024-08-14T15:40:32.030+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000214742}
+{"level":"INFO","time":"2024-08-14T15:41:30.241+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.649796948}
+{"level":"ERROR","time":"2024-08-14T15:41:43.568+0800","caller":"controller/user.go:35","msg":"获取验证码失败"}
+{"level":"INFO","time":"2024-08-14T15:41:43.568+0800","caller":"logger/logger.go:88","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000292376}
+{"level":"INFO","time":"2024-08-14T15:43:57.403+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001643824}
+{"level":"INFO","time":"2024-08-14T15:48:30.389+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.579337595}
+{"level":"INFO","time":"2024-08-14T15:48:40.858+0800","caller":"logger/logger.go:88","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000278154}
+{"level":"ERROR","time":"2024-08-14T15:49:34.840+0800","caller":"controller/user.go:41","msg":"验证码不同"}
+{"level":"INFO","time":"2024-08-14T15:49:34.840+0800","caller":"logger/logger.go:88","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00032593}
+{"level":"INFO","time":"2024-08-14T15:49:37.407+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000776202}
+{"level":"INFO","time":"2024-08-14T15:49:55.145+0800","caller":"logger/logger.go:88","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000196989}
+{"level":"INFO","time":"2024-08-14T16:06:59.910+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"ERROR","time":"2024-08-14T16:07:22.492+0800","caller":"logic/user.go:21","msg":"发送验证码失败"}
+{"level":"INFO","time":"2024-08-14T16:07:22.493+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000660443}
+{"level":"INFO","time":"2024-08-14T16:09:12.154+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"ERROR","time":"2024-08-14T16:09:15.270+0800","caller":"logic/user.go:21","msg":"发送验证码失败","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 0.0.0.0:12000: connect: connection refused\""}
+{"level":"INFO","time":"2024-08-14T16:09:15.270+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000248405}
+{"level":"ERROR","time":"2024-08-14T16:09:45.743+0800","caller":"logic/user.go:21","msg":"发送验证码失败","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 0.0.0.0:12000: connect: connection refused\""}
+{"level":"INFO","time":"2024-08-14T16:09:45.743+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000189185}
+{"level":"INFO","time":"2024-08-14T16:10:22.832+0800","caller":"logger/logger.go:88","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.538025115}
+{"level":"INFO","time":"2024-08-14T16:10:49.850+0800","caller":"logger/logger.go:88","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000208881}
+{"level":"INFO","time":"2024-08-14T21:22:01.475+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-17T11:02:50.836+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-17T11:02:59.971+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-17T11:04:20.964+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T07:56:02.762+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T07:56:44.420+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T08:04:58.655+0800","caller":"logger/logger.go:51","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T08:06:47.717+0800","caller":"login/main.go:25","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T08:06:47.718+0800","caller":"login/main.go:32","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-19T08:06:47.718+0800","caller":"login/main.go:39","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-19T08:06:47.719+0800","caller":"login/main.go:45","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-19T08:45:16.449+0800","caller":"login/main.go:26","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T08:45:16.450+0800","caller":"login/main.go:33","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-19T08:45:16.450+0800","caller":"login/main.go:40","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-19T08:45:16.450+0800","caller":"login/main.go:46","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-19T08:46:50.188+0800","caller":"login/main.go:26","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T08:46:50.189+0800","caller":"login/main.go:33","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-19T08:46:50.189+0800","caller":"login/main.go:40","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-19T08:46:50.190+0800","caller":"login/main.go:46","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-19T10:18:58.561+0800","caller":"login/main.go:26","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T10:18:58.562+0800","caller":"login/main.go:33","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-19T10:18:58.563+0800","caller":"login/main.go:40","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-19T10:21:15.830+0800","caller":"login/main.go:26","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T10:21:15.830+0800","caller":"login/main.go:33","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-19T10:21:15.831+0800","caller":"login/main.go:40","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-19T10:21:15.832+0800","caller":"login/main.go:46","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-19T10:21:15.832+0800","caller":"login/main.go:53","msg":"init mysql success"}
+{"level":"INFO","time":"2024-08-19T10:28:36.848+0800","caller":"login/main.go:26","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T10:28:36.849+0800","caller":"login/main.go:33","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-19T10:28:36.849+0800","caller":"login/main.go:40","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-19T10:28:36.849+0800","caller":"login/main.go:46","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-19T10:28:36.850+0800","caller":"login/main.go:53","msg":"init mysql success"}
+{"level":"INFO","time":"2024-08-19T10:34:22.525+0800","caller":"login/main.go:26","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T10:34:22.527+0800","caller":"login/main.go:33","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-19T10:34:22.528+0800","caller":"login/main.go:40","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-19T10:34:22.528+0800","caller":"login/main.go:46","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-19T10:34:22.529+0800","caller":"login/main.go:53","msg":"init mysql success"}
+{"level":"ERROR","time":"2024-08-19T10:34:55.015+0800","caller":"controller/user.go:76","msg":"登录失败"}
+{"level":"INFO","time":"2024-08-19T10:34:55.015+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.006090325}
+{"level":"INFO","time":"2024-08-19T10:42:54.998+0800","caller":"login/main.go:26","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T10:42:54.999+0800","caller":"login/main.go:33","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-19T10:42:54.999+0800","caller":"login/main.go:40","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-19T10:42:55.000+0800","caller":"login/main.go:46","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-19T10:42:55.001+0800","caller":"login/main.go:53","msg":"init mysql success"}
+{"level":"INFO","time":"2024-08-19T10:43:18.571+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000542983}
+{"level":"INFO","time":"2024-08-19T10:44:11.777+0800","caller":"login/main.go:26","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T10:44:11.778+0800","caller":"login/main.go:33","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-19T10:44:11.778+0800","caller":"login/main.go:40","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-19T10:44:11.778+0800","caller":"login/main.go:46","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-19T10:44:11.779+0800","caller":"login/main.go:53","msg":"init mysql success"}
+{"level":"INFO","time":"2024-08-19T10:44:30.114+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000553166}
+{"level":"INFO","time":"2024-08-19T10:45:23.166+0800","caller":"login/main.go:26","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T10:45:23.167+0800","caller":"login/main.go:33","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-19T10:45:23.168+0800","caller":"login/main.go:40","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-19T10:45:23.168+0800","caller":"login/main.go:46","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-19T10:45:23.168+0800","caller":"login/main.go:53","msg":"init mysql success"}
+{"level":"ERROR","time":"2024-08-19T10:45:42.332+0800","caller":"controller/common.go:24","msg":"内部错误"}
+{"level":"INFO","time":"2024-08-19T10:45:42.332+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000629516}
+{"level":"INFO","time":"2024-08-19T10:46:50.981+0800","caller":"login/main.go:26","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T10:46:50.982+0800","caller":"login/main.go:33","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-19T10:46:50.982+0800","caller":"login/main.go:40","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-19T10:46:50.983+0800","caller":"login/main.go:46","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-19T10:46:50.984+0800","caller":"login/main.go:53","msg":"init mysql success"}
+{"level":"ERROR","time":"2024-08-19T10:47:16.009+0800","caller":"controller/common.go:24","msg":"内部错误"}
+{"level":"ERROR","time":"2024-08-19T10:47:16.009+0800","caller":"controller/user.go:77","msg":"err: ","error":"must pass a pointer, not a value, to StructScan destination"}
+{"level":"INFO","time":"2024-08-19T10:47:16.009+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000691236}
+{"level":"INFO","time":"2024-08-19T10:48:06.932+0800","caller":"login/main.go:26","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T10:48:06.932+0800","caller":"login/main.go:33","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-19T10:48:06.933+0800","caller":"login/main.go:40","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-19T10:48:06.934+0800","caller":"login/main.go:46","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-19T10:48:06.935+0800","caller":"login/main.go:53","msg":"init mysql success"}
+{"level":"ERROR","time":"2024-08-19T10:48:25.403+0800","caller":"controller/common.go:24","msg":"用户不存在"}
+{"level":"INFO","time":"2024-08-19T10:48:25.404+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000638172}
+{"level":"ERROR","time":"2024-08-19T10:57:32.713+0800","caller":"controller/common.go:24","msg":"用户不存在"}
+{"level":"INFO","time":"2024-08-19T10:57:32.713+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00141197}
+{"level":"ERROR","time":"2024-08-19T10:59:30.300+0800","caller":"controller/common.go:24","msg":"用户不存在"}
+{"level":"INFO","time":"2024-08-19T10:59:30.300+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000497477}
+{"level":"ERROR","time":"2024-08-19T11:00:55.323+0800","caller":"controller/common.go:24","msg":"用户不存在"}
+{"level":"INFO","time":"2024-08-19T11:00:55.323+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000481735}
+{"level":"ERROR","time":"2024-08-19T11:00:56.635+0800","caller":"controller/common.go:24","msg":"用户不存在"}
+{"level":"INFO","time":"2024-08-19T11:00:56.635+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000498636}
+{"level":"ERROR","time":"2024-08-19T11:00:57.333+0800","caller":"controller/common.go:24","msg":"用户不存在"}
+{"level":"INFO","time":"2024-08-19T11:00:57.333+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00054706}
+{"level":"ERROR","time":"2024-08-19T11:00:58.342+0800","caller":"controller/common.go:24","msg":"用户不存在"}
+{"level":"INFO","time":"2024-08-19T11:00:58.342+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000494167}
+{"level":"ERROR","time":"2024-08-19T11:00:59.411+0800","caller":"controller/common.go:24","msg":"用户不存在"}
+{"level":"INFO","time":"2024-08-19T11:00:59.411+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000495206}
+{"level":"ERROR","time":"2024-08-19T11:00:59.958+0800","caller":"controller/common.go:24","msg":"用户不存在"}
+{"level":"INFO","time":"2024-08-19T11:00:59.958+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000519916}
+{"level":"ERROR","time":"2024-08-19T11:01:00.549+0800","caller":"controller/common.go:24","msg":"用户不存在"}
+{"level":"INFO","time":"2024-08-19T11:01:00.549+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000488497}
+{"level":"ERROR","time":"2024-08-19T11:01:01.257+0800","caller":"controller/common.go:24","msg":"用户不存在"}
+{"level":"INFO","time":"2024-08-19T11:01:01.257+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000532519}
+{"level":"ERROR","time":"2024-08-19T11:02:49.444+0800","caller":"controller/common.go:24","msg":"内部验证码失败"}
+{"level":"INFO","time":"2024-08-19T11:02:49.444+0800","caller":"logger/logger.go:86","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.002295001}
+{"level":"INFO","time":"2024-08-19T11:03:40.095+0800","caller":"login/main.go:26","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T11:03:40.096+0800","caller":"login/main.go:33","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-19T11:03:40.096+0800","caller":"login/main.go:40","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-19T11:03:40.097+0800","caller":"login/main.go:46","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-19T11:03:40.098+0800","caller":"login/main.go:53","msg":"init mysql success"}
+{"level":"INFO","time":"2024-08-19T11:03:44.011+0800","caller":"logger/logger.go:86","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":1.153519023}
+{"level":"ERROR","time":"2024-08-19T11:04:06.140+0800","caller":"controller/user.go:49","msg":"mysql.Register() failed","error":"snoy flake not inited"}
+{"level":"ERROR","time":"2024-08-19T11:04:06.140+0800","caller":"controller/common.go:24","msg":"snoy flake not inited"}
+{"level":"INFO","time":"2024-08-19T11:04:06.140+0800","caller":"logger/logger.go:86","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00111146}
+{"level":"INFO","time":"2024-08-19T11:09:10.168+0800","caller":"login/main.go:27","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T11:09:10.169+0800","caller":"login/main.go:34","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-19T11:09:10.170+0800","caller":"login/main.go:41","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-19T11:09:10.170+0800","caller":"login/main.go:46","msg":"init snowflake success"}
+{"level":"INFO","time":"2024-08-19T11:09:10.171+0800","caller":"login/main.go:52","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-19T11:09:10.171+0800","caller":"login/main.go:59","msg":"init mysql success"}
+{"level":"INFO","time":"2024-08-19T11:09:20.099+0800","caller":"logger/logger.go:86","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.964255571}
+{"level":"INFO","time":"2024-08-19T11:09:37.059+0800","caller":"logger/logger.go:86","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.005889601}
+{"level":"ERROR","time":"2024-08-19T11:09:49.995+0800","caller":"controller/common.go:24","msg":"密码错误"}
+{"level":"INFO","time":"2024-08-19T11:09:49.995+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000578866}
+{"level":"ERROR","time":"2024-08-19T11:09:56.661+0800","caller":"controller/common.go:24","msg":"密码错误"}
+{"level":"INFO","time":"2024-08-19T11:09:56.661+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000514436}
+{"level":"INFO","time":"2024-08-19T11:11:47.424+0800","caller":"login/main.go:27","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T11:11:47.425+0800","caller":"login/main.go:34","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-19T11:11:47.426+0800","caller":"login/main.go:41","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-19T11:11:47.426+0800","caller":"login/main.go:46","msg":"init snowflake success"}
+{"level":"INFO","time":"2024-08-19T11:11:47.426+0800","caller":"login/main.go:52","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-19T11:11:47.427+0800","caller":"login/main.go:59","msg":"init mysql success"}
+{"level":"ERROR","time":"2024-08-19T11:11:54.789+0800","caller":"controller/common.go:24","msg":"密码错误"}
+{"level":"INFO","time":"2024-08-19T11:11:54.789+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000646535}
+{"level":"ERROR","time":"2024-08-19T11:14:48.792+0800","caller":"controller/common.go:24","msg":"用户不存在"}
+{"level":"INFO","time":"2024-08-19T11:14:48.793+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000500193}
+{"level":"INFO","time":"2024-08-19T11:15:14.877+0800","caller":"logger/logger.go:86","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":1.000413204}
+{"level":"INFO","time":"2024-08-19T11:15:24.542+0800","caller":"logger/logger.go:86","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.006318553}
+{"level":"ERROR","time":"2024-08-19T11:15:32.975+0800","caller":"controller/common.go:24","msg":"密码错误"}
+{"level":"INFO","time":"2024-08-19T11:15:32.975+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000483633}
+{"level":"INFO","time":"2024-08-19T11:17:15.536+0800","caller":"login/main.go:27","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T11:17:15.537+0800","caller":"login/main.go:34","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-19T11:17:15.538+0800","caller":"login/main.go:41","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-19T11:17:15.538+0800","caller":"login/main.go:46","msg":"init snowflake success"}
+{"level":"INFO","time":"2024-08-19T11:17:15.538+0800","caller":"login/main.go:52","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-19T11:17:15.539+0800","caller":"login/main.go:59","msg":"init mysql success"}
+{"level":"ERROR","time":"2024-08-19T11:17:17.535+0800","caller":"controller/common.go:24","msg":"获取msg server失败"}
+{"level":"ERROR","time":"2024-08-19T11:17:17.535+0800","caller":"controller/user.go:85","msg":"","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 0.0.0.0:13000: connect: connection refused\""}
+{"level":"INFO","time":"2024-08-19T11:17:17.535+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000886758}
+{"level":"ERROR","time":"2024-08-19T11:18:13.619+0800","caller":"controller/common.go:24","msg":"获取msg server失败"}
+{"level":"ERROR","time":"2024-08-19T11:18:13.619+0800","caller":"controller/user.go:85","msg":"","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 0.0.0.0:13000: connect: connection refused\""}
+{"level":"INFO","time":"2024-08-19T11:18:13.619+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000598844}
+{"level":"ERROR","time":"2024-08-19T11:18:14.506+0800","caller":"controller/common.go:24","msg":"获取msg server失败"}
+{"level":"ERROR","time":"2024-08-19T11:18:14.506+0800","caller":"controller/user.go:85","msg":"","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 0.0.0.0:13000: connect: connection refused\""}
+{"level":"INFO","time":"2024-08-19T11:18:14.506+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000594489}
+{"level":"ERROR","time":"2024-08-19T11:18:15.302+0800","caller":"controller/common.go:24","msg":"获取msg server失败"}
+{"level":"ERROR","time":"2024-08-19T11:18:15.302+0800","caller":"controller/user.go:85","msg":"","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 0.0.0.0:13000: connect: connection refused\""}
+{"level":"INFO","time":"2024-08-19T11:18:15.302+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000580726}
+{"level":"INFO","time":"2024-08-19T14:29:43.921+0800","caller":"logger/logger.go:86","msg":"/get_varify_code","status":200,"method":"POST","path":"/get_varify_code","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.594407485}
+{"level":"ERROR","time":"2024-08-19T14:30:04.032+0800","caller":"controller/common.go:24","msg":"用户已注册"}
+{"level":"INFO","time":"2024-08-19T14:30:04.032+0800","caller":"logger/logger.go:86","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001813725}
+{"level":"ERROR","time":"2024-08-19T14:30:08.823+0800","caller":"controller/common.go:24","msg":"用户已注册"}
+{"level":"INFO","time":"2024-08-19T14:30:08.824+0800","caller":"logger/logger.go:86","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000618041}
+{"level":"ERROR","time":"2024-08-19T14:30:09.106+0800","caller":"controller/common.go:24","msg":"用户已注册"}
+{"level":"INFO","time":"2024-08-19T14:30:09.107+0800","caller":"logger/logger.go:86","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000546491}
+{"level":"ERROR","time":"2024-08-19T14:30:09.296+0800","caller":"controller/common.go:24","msg":"用户已注册"}
+{"level":"INFO","time":"2024-08-19T14:30:09.296+0800","caller":"logger/logger.go:86","msg":"/register","status":200,"method":"POST","path":"/register","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000596895}
+{"level":"ERROR","time":"2024-08-19T14:31:17.935+0800","caller":"controller/common.go:24","msg":"获取msg server失败"}
+{"level":"ERROR","time":"2024-08-19T14:31:17.935+0800","caller":"controller/user.go:85","msg":"","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 0.0.0.0:13000: connect: connection refused\""}
+{"level":"INFO","time":"2024-08-19T14:31:17.935+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000627982}
+{"level":"ERROR","time":"2024-08-19T14:53:43.476+0800","caller":"controller/common.go:24","msg":"获取msg server失败"}
+{"level":"ERROR","time":"2024-08-19T14:53:43.476+0800","caller":"controller/user.go:85","msg":"","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 0.0.0.0:13000: connect: connection refused\""}
+{"level":"INFO","time":"2024-08-19T14:53:43.476+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000618579}
+{"level":"ERROR","time":"2024-08-19T14:53:45.952+0800","caller":"controller/common.go:24","msg":"获取msg server失败"}
+{"level":"ERROR","time":"2024-08-19T14:53:45.952+0800","caller":"controller/user.go:85","msg":"","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 0.0.0.0:13000: connect: connection refused\""}
+{"level":"INFO","time":"2024-08-19T14:53:45.952+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000759795}
+{"level":"ERROR","time":"2024-08-19T14:53:46.608+0800","caller":"controller/common.go:24","msg":"获取msg server失败"}
+{"level":"ERROR","time":"2024-08-19T14:53:46.608+0800","caller":"controller/user.go:85","msg":"","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 0.0.0.0:13000: connect: connection refused\""}
+{"level":"INFO","time":"2024-08-19T14:53:46.608+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000802496}
+{"level":"ERROR","time":"2024-08-19T14:53:46.899+0800","caller":"controller/common.go:24","msg":"获取msg server失败"}
+{"level":"ERROR","time":"2024-08-19T14:53:46.899+0800","caller":"controller/user.go:85","msg":"","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 0.0.0.0:13000: connect: connection refused\""}
+{"level":"INFO","time":"2024-08-19T14:53:46.899+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000607825}
+{"level":"ERROR","time":"2024-08-19T14:53:47.093+0800","caller":"controller/common.go:24","msg":"获取msg server失败"}
+{"level":"ERROR","time":"2024-08-19T14:53:47.093+0800","caller":"controller/user.go:85","msg":"","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 0.0.0.0:13000: connect: connection refused\""}
+{"level":"INFO","time":"2024-08-19T14:53:47.093+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000555682}
+{"level":"ERROR","time":"2024-08-19T14:53:47.276+0800","caller":"controller/common.go:24","msg":"获取msg server失败"}
+{"level":"ERROR","time":"2024-08-19T14:53:47.276+0800","caller":"controller/user.go:85","msg":"","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 0.0.0.0:13000: connect: connection refused\""}
+{"level":"INFO","time":"2024-08-19T14:53:47.276+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000592908}
+{"level":"ERROR","time":"2024-08-19T14:53:47.459+0800","caller":"controller/common.go:24","msg":"获取msg server失败"}
+{"level":"ERROR","time":"2024-08-19T14:53:47.459+0800","caller":"controller/user.go:85","msg":"","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 0.0.0.0:13000: connect: connection refused\""}
+{"level":"INFO","time":"2024-08-19T14:53:47.459+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000626595}
+{"level":"ERROR","time":"2024-08-19T14:53:47.652+0800","caller":"controller/common.go:24","msg":"获取msg server失败"}
+{"level":"ERROR","time":"2024-08-19T14:53:47.652+0800","caller":"controller/user.go:85","msg":"","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 0.0.0.0:13000: connect: connection refused\""}
+{"level":"INFO","time":"2024-08-19T14:53:47.652+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000626015}
+{"level":"ERROR","time":"2024-08-19T14:53:47.834+0800","caller":"controller/common.go:24","msg":"获取msg server失败"}
+{"level":"ERROR","time":"2024-08-19T14:53:47.834+0800","caller":"controller/user.go:85","msg":"","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 0.0.0.0:13000: connect: connection refused\""}
+{"level":"INFO","time":"2024-08-19T14:53:47.834+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000586986}
+{"level":"ERROR","time":"2024-08-19T14:53:48.030+0800","caller":"controller/common.go:24","msg":"获取msg server失败"}
+{"level":"ERROR","time":"2024-08-19T14:53:48.030+0800","caller":"controller/user.go:85","msg":"","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 0.0.0.0:13000: connect: connection refused\""}
+{"level":"INFO","time":"2024-08-19T14:53:48.030+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000612751}
+{"level":"INFO","time":"2024-08-19T14:53:51.035+0800","caller":"login/main.go:27","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T14:53:51.035+0800","caller":"login/main.go:34","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-19T14:53:51.037+0800","caller":"login/main.go:41","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-19T14:53:51.037+0800","caller":"login/main.go:46","msg":"init snowflake success"}
+{"level":"INFO","time":"2024-08-19T14:53:51.037+0800","caller":"login/main.go:52","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-19T14:53:51.038+0800","caller":"login/main.go:59","msg":"init mysql success"}
+{"level":"INFO","time":"2024-08-19T14:53:52.681+0800","caller":"controller/user.go:89","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-19T14:53:52.681+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001435512}
+{"level":"INFO","time":"2024-08-19T14:54:38.537+0800","caller":"controller/user.go:89","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-19T14:54:38.537+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001015564}
+{"level":"INFO","time":"2024-08-19T15:04:54.551+0800","caller":"login/main.go:27","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T15:04:54.552+0800","caller":"login/main.go:34","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-19T15:04:54.553+0800","caller":"login/main.go:41","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-19T15:04:54.553+0800","caller":"login/main.go:46","msg":"init snowflake success"}
+{"level":"INFO","time":"2024-08-19T15:04:54.554+0800","caller":"login/main.go:52","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-19T15:04:54.554+0800","caller":"login/main.go:59","msg":"init mysql success"}
+{"level":"DEBUG","time":"2024-08-19T15:05:09.620+0800","caller":"controller/user.go:89","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-19T15:05:09.620+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001344933}
+{"level":"INFO","time":"2024-08-19T15:10:01.465+0800","caller":"login/main.go:27","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T15:10:01.466+0800","caller":"login/main.go:34","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-19T15:10:01.468+0800","caller":"login/main.go:41","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-19T15:10:01.468+0800","caller":"login/main.go:46","msg":"init snowflake success"}
+{"level":"INFO","time":"2024-08-19T15:10:01.468+0800","caller":"login/main.go:52","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-19T15:10:01.469+0800","caller":"login/main.go:59","msg":"init mysql success"}
+{"level":"INFO","time":"2024-08-19T15:12:31.701+0800","caller":"login/main.go:27","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T15:12:31.702+0800","caller":"login/main.go:34","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-19T15:12:31.704+0800","caller":"login/main.go:41","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-19T15:12:31.704+0800","caller":"login/main.go:46","msg":"init snowflake success"}
+{"level":"INFO","time":"2024-08-19T15:12:31.705+0800","caller":"login/main.go:52","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-19T15:12:31.705+0800","caller":"login/main.go:59","msg":"init mysql success"}
+{"level":"DEBUG","time":"2024-08-19T15:12:50.313+0800","caller":"controller/user.go:89","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-19T15:12:50.313+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001402201}
+{"level":"INFO","time":"2024-08-19T15:24:48.427+0800","caller":"login/main.go:27","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-19T15:24:48.429+0800","caller":"login/main.go:34","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-19T15:24:48.430+0800","caller":"login/main.go:41","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-19T15:24:48.431+0800","caller":"login/main.go:46","msg":"init snowflake success"}
+{"level":"INFO","time":"2024-08-19T15:24:48.432+0800","caller":"login/main.go:52","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-19T15:24:48.432+0800","caller":"login/main.go:59","msg":"init mysql success"}
+{"level":"DEBUG","time":"2024-08-19T15:24:57.445+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-19T15:24:57.445+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001219667}
+{"level":"DEBUG","time":"2024-08-19T15:28:10.009+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-19T15:28:10.010+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00106026}
+{"level":"DEBUG","time":"2024-08-19T15:45:20.518+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-19T15:45:20.519+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001980079}
+{"level":"DEBUG","time":"2024-08-19T15:56:09.391+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-19T15:56:09.392+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001738168}
+{"level":"DEBUG","time":"2024-08-19T15:56:23.574+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-19T15:56:23.574+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000993175}
+{"level":"DEBUG","time":"2024-08-19T15:56:49.530+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-19T15:56:49.530+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001090899}
+{"level":"DEBUG","time":"2024-08-19T15:56:52.164+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-19T15:56:52.164+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000990438}
+{"level":"DEBUG","time":"2024-08-19T15:58:10.416+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-19T15:58:10.416+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001101247}
+{"level":"DEBUG","time":"2024-08-19T16:07:13.468+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-19T16:07:13.468+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001017468}
+{"level":"DEBUG","time":"2024-08-19T16:07:31.564+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-19T16:07:31.564+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000988128}
+{"level":"DEBUG","time":"2024-08-19T16:07:37.194+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-19T16:07:37.194+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001004866}
+{"level":"DEBUG","time":"2024-08-19T16:08:49.095+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-19T16:08:49.095+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001008285}
+{"level":"DEBUG","time":"2024-08-19T16:09:14.207+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-19T16:09:14.207+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001008723}
+{"level":"DEBUG","time":"2024-08-19T17:07:39.434+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-19T17:07:39.435+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.002372968}
+{"level":"DEBUG","time":"2024-08-19T21:29:16.898+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-19T21:29:16.900+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.003631579}
+{"level":"INFO","time":"2024-08-20T11:19:28.751+0800","caller":"login/main.go:27","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-20T11:19:28.753+0800","caller":"login/main.go:34","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-20T11:19:28.753+0800","caller":"login/main.go:41","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-20T11:19:28.753+0800","caller":"login/main.go:46","msg":"init snowflake success"}
+{"level":"INFO","time":"2024-08-20T11:19:55.723+0800","caller":"login/main.go:27","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-20T11:19:55.724+0800","caller":"login/main.go:34","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-20T11:19:55.724+0800","caller":"login/main.go:41","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-20T11:19:55.724+0800","caller":"login/main.go:46","msg":"init snowflake success"}
+{"level":"INFO","time":"2024-08-20T11:19:55.725+0800","caller":"login/main.go:52","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-20T11:21:35.902+0800","caller":"login/main.go:27","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-20T11:21:35.904+0800","caller":"login/main.go:34","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-20T11:21:35.904+0800","caller":"login/main.go:41","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-20T11:21:35.904+0800","caller":"login/main.go:46","msg":"init snowflake success"}
+{"level":"INFO","time":"2024-08-20T11:21:35.904+0800","caller":"login/main.go:52","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-20T11:21:35.905+0800","caller":"login/main.go:59","msg":"init mysql success"}
+{"level":"INFO","time":"2024-08-20T11:23:54.009+0800","caller":"login/main.go:27","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-20T11:23:54.010+0800","caller":"login/main.go:34","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-20T11:23:54.010+0800","caller":"login/main.go:41","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-20T11:23:54.010+0800","caller":"login/main.go:46","msg":"init snowflake success"}
+{"level":"INFO","time":"2024-08-20T11:23:54.011+0800","caller":"login/main.go:52","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-20T11:23:54.011+0800","caller":"login/main.go:59","msg":"init mysql success"}
+{"level":"DEBUG","time":"2024-08-20T11:23:57.499+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T11:23:57.499+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.005427777}
+{"level":"DEBUG","time":"2024-08-20T11:24:24.786+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T11:24:24.786+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001040094}
+{"level":"DEBUG","time":"2024-08-20T11:29:36.197+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T11:29:36.197+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001783115}
+{"level":"DEBUG","time":"2024-08-20T11:31:24.350+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T11:31:24.350+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001941416}
+{"level":"ERROR","time":"2024-08-20T11:33:33.581+0800","caller":"controller/common.go:24","msg":"获取msg server失败"}
+{"level":"ERROR","time":"2024-08-20T11:33:33.581+0800","caller":"controller/user.go:86","msg":"","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 0.0.0.0:13000: connect: connection refused\""}
+{"level":"INFO","time":"2024-08-20T11:33:33.581+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000830396}
+{"level":"DEBUG","time":"2024-08-20T11:33:40.331+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T11:33:40.331+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001168739}
+{"level":"DEBUG","time":"2024-08-20T11:37:26.350+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T11:37:26.351+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001747231}
+{"level":"DEBUG","time":"2024-08-20T11:40:43.292+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T11:40:43.292+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001095044}
+{"level":"DEBUG","time":"2024-08-20T11:43:04.271+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T11:43:04.271+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001121666}
+{"level":"DEBUG","time":"2024-08-20T11:43:27.728+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T11:43:27.728+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001836557}
+{"level":"DEBUG","time":"2024-08-20T13:44:14.368+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T13:44:14.370+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.003121079}
+{"level":"DEBUG","time":"2024-08-20T13:47:05.094+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T13:47:05.094+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001186194}
+{"level":"DEBUG","time":"2024-08-20T13:47:06.349+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T13:47:06.349+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001069916}
+{"level":"DEBUG","time":"2024-08-20T13:47:07.385+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T13:47:07.385+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001059218}
+{"level":"DEBUG","time":"2024-08-20T13:47:40.532+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T13:47:40.532+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001082361}
+{"level":"DEBUG","time":"2024-08-20T13:47:41.015+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T13:47:41.015+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001005536}
+{"level":"DEBUG","time":"2024-08-20T13:47:41.472+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T13:47:41.472+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.002795663}
+{"level":"DEBUG","time":"2024-08-20T13:47:42.129+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T13:47:42.129+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000965503}
+{"level":"DEBUG","time":"2024-08-20T13:47:55.426+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T13:47:55.426+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001091366}
+{"level":"DEBUG","time":"2024-08-20T13:49:33.817+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T13:49:33.817+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001157029}
+{"level":"DEBUG","time":"2024-08-20T13:50:49.858+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T13:50:49.858+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001114619}
+{"level":"DEBUG","time":"2024-08-20T13:52:05.913+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T13:52:05.913+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001123723}
+{"level":"DEBUG","time":"2024-08-20T13:52:06.825+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T13:52:06.825+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001049428}
+{"level":"DEBUG","time":"2024-08-20T13:52:07.687+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T13:52:07.687+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001011406}
+{"level":"DEBUG","time":"2024-08-20T13:52:09.632+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T13:52:09.632+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000993013}
+{"level":"DEBUG","time":"2024-08-20T13:52:10.999+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T13:52:10.999+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001041123}
+{"level":"DEBUG","time":"2024-08-20T13:53:23.812+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T13:53:23.812+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001068573}
+{"level":"DEBUG","time":"2024-08-20T13:59:39.877+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T13:59:39.878+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001805476}
+{"level":"ERROR","time":"2024-08-20T14:01:49.588+0800","caller":"controller/common.go:24","msg":"密码错误"}
+{"level":"INFO","time":"2024-08-20T14:01:49.589+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000521869}
+{"level":"DEBUG","time":"2024-08-20T14:01:53.906+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T14:01:53.906+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00114619}
+{"level":"DEBUG","time":"2024-08-20T14:02:58.638+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T14:02:58.639+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001042126}
+{"level":"DEBUG","time":"2024-08-20T14:04:05.890+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T14:04:05.890+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001082039}
+{"level":"DEBUG","time":"2024-08-20T14:06:06.649+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T14:06:06.649+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001103391}
+{"level":"DEBUG","time":"2024-08-20T14:06:17.981+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T14:06:17.981+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001025604}
+{"level":"DEBUG","time":"2024-08-20T14:07:35.432+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T14:07:35.432+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001273819}
+{"level":"DEBUG","time":"2024-08-20T14:09:19.889+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T14:09:19.891+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.002989148}
+{"level":"DEBUG","time":"2024-08-20T14:25:18.204+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T14:25:18.204+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001088934}
+{"level":"DEBUG","time":"2024-08-20T14:29:21.964+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T14:29:21.964+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001127946}
+{"level":"DEBUG","time":"2024-08-20T14:29:43.640+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T14:29:43.640+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001109159}
+{"level":"DEBUG","time":"2024-08-20T14:29:44.241+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T14:29:44.241+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001027207}
+{"level":"DEBUG","time":"2024-08-20T14:29:45.025+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T14:29:45.025+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000985172}
+{"level":"DEBUG","time":"2024-08-20T14:31:06.708+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T14:31:06.708+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001097519}
+{"level":"DEBUG","time":"2024-08-20T14:39:25.613+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T14:39:25.613+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001123577}
+{"level":"DEBUG","time":"2024-08-20T14:40:27.927+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T14:40:27.928+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001612806}
+{"level":"DEBUG","time":"2024-08-20T14:53:48.860+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T14:53:48.860+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001072983}
+{"level":"DEBUG","time":"2024-08-20T15:00:54.712+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T15:00:54.712+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001126568}
+{"level":"DEBUG","time":"2024-08-20T15:01:21.487+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T15:01:21.487+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001046392}
+{"level":"DEBUG","time":"2024-08-20T15:15:33.895+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T15:15:33.896+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00180806}
+{"level":"DEBUG","time":"2024-08-20T15:41:30.577+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T15:41:30.578+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001720084}
+{"level":"DEBUG","time":"2024-08-20T15:45:46.594+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T15:45:46.595+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001714485}
+{"level":"DEBUG","time":"2024-08-20T15:53:56.629+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T15:53:56.629+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001138987}
+{"level":"DEBUG","time":"2024-08-20T16:01:19.804+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T16:01:19.805+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001052696}
+{"level":"DEBUG","time":"2024-08-20T16:25:41.526+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T16:25:41.527+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00186101}
+{"level":"DEBUG","time":"2024-08-20T16:34:22.809+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T16:34:22.810+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001746995}
+{"level":"DEBUG","time":"2024-08-20T16:35:39.223+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T16:35:39.223+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001080846}
+{"level":"DEBUG","time":"2024-08-20T16:37:17.634+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T16:37:17.634+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001074235}
+{"level":"DEBUG","time":"2024-08-20T16:49:18.793+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T16:49:18.820+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.028102966}
+{"level":"DEBUG","time":"2024-08-20T17:45:38.403+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T17:45:38.404+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001660965}
+{"level":"DEBUG","time":"2024-08-20T17:49:55.741+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T17:49:55.743+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.003069795}
+{"level":"DEBUG","time":"2024-08-20T17:54:53.717+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T17:54:53.720+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.003129699}
+{"level":"DEBUG","time":"2024-08-20T17:57:01.955+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T17:57:01.957+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.003223752}
+{"level":"DEBUG","time":"2024-08-20T17:59:24.496+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T17:59:24.496+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001101346}
+{"level":"DEBUG","time":"2024-08-20T19:23:46.132+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T19:23:46.133+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001687366}
+{"level":"INFO","time":"2024-08-20T19:34:57.569+0800","caller":"login/main.go:27","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-20T19:34:57.570+0800","caller":"login/main.go:34","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-20T19:34:57.571+0800","caller":"login/main.go:41","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-20T19:34:57.571+0800","caller":"login/main.go:46","msg":"init snowflake success"}
+{"level":"INFO","time":"2024-08-20T19:34:57.572+0800","caller":"login/main.go:52","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-20T19:34:57.573+0800","caller":"login/main.go:59","msg":"init mysql success"}
+{"level":"DEBUG","time":"2024-08-20T19:49:56.741+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T19:49:56.742+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.010293612}
+{"level":"DEBUG","time":"2024-08-20T20:00:10.888+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T20:00:10.888+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001152994}
+{"level":"DEBUG","time":"2024-08-20T20:00:34.177+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T20:00:34.177+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001098044}
+{"level":"DEBUG","time":"2024-08-20T20:03:42.769+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T20:03:42.769+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001080032}
+{"level":"DEBUG","time":"2024-08-20T20:06:00.038+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T20:06:00.038+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001059295}
+{"level":"DEBUG","time":"2024-08-20T21:15:22.285+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T21:15:22.286+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.002446922}
+{"level":"DEBUG","time":"2024-08-20T21:16:51.448+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T21:16:51.448+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001092758}
+{"level":"DEBUG","time":"2024-08-20T21:20:18.216+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T21:20:18.216+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001057484}
+{"level":"DEBUG","time":"2024-08-20T21:24:20.821+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T21:24:20.821+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.0010669}
+{"level":"DEBUG","time":"2024-08-20T21:27:06.480+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T21:27:06.480+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001069354}
+{"level":"DEBUG","time":"2024-08-20T21:29:30.276+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T21:29:30.276+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001152391}
+{"level":"DEBUG","time":"2024-08-20T21:34:16.930+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T21:34:16.930+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001119559}
+{"level":"DEBUG","time":"2024-08-20T21:51:27.488+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T21:51:27.488+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001069925}
+{"level":"DEBUG","time":"2024-08-20T22:07:12.706+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T22:07:12.707+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00104066}
+{"level":"DEBUG","time":"2024-08-20T22:14:31.696+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T22:14:31.696+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000998914}
+{"level":"DEBUG","time":"2024-08-20T22:17:03.130+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T22:17:03.130+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001076738}
+{"level":"DEBUG","time":"2024-08-20T22:20:03.982+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T22:20:03.982+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001035646}
+{"level":"DEBUG","time":"2024-08-20T22:21:22.573+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T22:21:22.573+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001020234}
+{"level":"DEBUG","time":"2024-08-20T22:25:13.728+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T22:25:13.728+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000999585}
+{"level":"DEBUG","time":"2024-08-20T22:29:49.048+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T22:29:49.048+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001009984}
+{"level":"ERROR","time":"2024-08-20T22:32:27.747+0800","caller":"controller/common.go:24","msg":"密码错误"}
+{"level":"INFO","time":"2024-08-20T22:32:27.748+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000517467}
+{"level":"DEBUG","time":"2024-08-20T22:32:31.019+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T22:32:31.019+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001096215}
+{"level":"DEBUG","time":"2024-08-20T22:35:14.599+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T22:35:14.599+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001234132}
+{"level":"DEBUG","time":"2024-08-20T22:36:59.982+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T22:36:59.982+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001132978}
+{"level":"ERROR","time":"2024-08-20T22:40:46.184+0800","caller":"controller/common.go:24","msg":"密码错误"}
+{"level":"INFO","time":"2024-08-20T22:40:46.184+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000499426}
+{"level":"ERROR","time":"2024-08-20T22:40:49.388+0800","caller":"controller/common.go:24","msg":"密码错误"}
+{"level":"INFO","time":"2024-08-20T22:40:49.388+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000621871}
+{"level":"ERROR","time":"2024-08-20T22:40:54.253+0800","caller":"controller/common.go:24","msg":"密码错误"}
+{"level":"INFO","time":"2024-08-20T22:40:54.253+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.000476147}
+{"level":"DEBUG","time":"2024-08-20T22:40:57.914+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-20T22:40:57.914+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001163782}
+{"level":"INFO","time":"2024-08-21T06:59:24.473+0800","caller":"login/main.go:27","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-21T06:59:24.474+0800","caller":"login/main.go:34","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-21T06:59:24.474+0800","caller":"login/main.go:41","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-21T06:59:24.474+0800","caller":"login/main.go:46","msg":"init snowflake success"}
+{"level":"INFO","time":"2024-08-21T06:59:46.319+0800","caller":"login/main.go:27","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-21T06:59:46.320+0800","caller":"login/main.go:34","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-21T06:59:46.320+0800","caller":"login/main.go:41","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-21T06:59:46.320+0800","caller":"login/main.go:46","msg":"init snowflake success"}
+{"level":"INFO","time":"2024-08-21T06:59:46.321+0800","caller":"login/main.go:52","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-21T06:59:46.321+0800","caller":"login/main.go:59","msg":"init mysql success"}
+{"level":"INFO","time":"2024-08-21T07:00:13.742+0800","caller":"login/main.go:27","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-21T07:00:13.743+0800","caller":"login/main.go:34","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-21T07:00:13.744+0800","caller":"login/main.go:41","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-21T07:00:13.744+0800","caller":"login/main.go:46","msg":"init snowflake success"}
+{"level":"INFO","time":"2024-08-21T07:00:13.744+0800","caller":"login/main.go:52","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-21T07:00:13.745+0800","caller":"login/main.go:59","msg":"init mysql success"}
+{"level":"DEBUG","time":"2024-08-21T07:00:26.701+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T07:00:26.701+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.005933087}
+{"level":"DEBUG","time":"2024-08-21T07:57:47.807+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T07:57:47.808+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.002500755}
+{"level":"DEBUG","time":"2024-08-21T08:08:53.378+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T08:08:53.378+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001058806}
+{"level":"DEBUG","time":"2024-08-21T08:54:58.844+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T08:54:58.845+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.002305731}
+{"level":"DEBUG","time":"2024-08-21T10:41:38.724+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T10:41:38.725+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.002412019}
+{"level":"DEBUG","time":"2024-08-21T10:50:29.039+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T10:50:29.040+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001797524}
+{"level":"DEBUG","time":"2024-08-21T10:54:56.306+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T10:54:56.306+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001028837}
+{"level":"DEBUG","time":"2024-08-21T10:57:55.635+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T10:57:55.635+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001157432}
+{"level":"DEBUG","time":"2024-08-21T11:05:49.690+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T11:05:49.690+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001004136}
+{"level":"DEBUG","time":"2024-08-21T11:10:07.450+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T11:10:07.450+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001114573}
+{"level":"DEBUG","time":"2024-08-21T11:10:23.096+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T11:10:23.096+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.0010442}
+{"level":"DEBUG","time":"2024-08-21T11:13:44.355+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T11:13:44.355+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001007145}
+{"level":"DEBUG","time":"2024-08-21T11:16:59.801+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T11:16:59.801+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001111416}
+{"level":"DEBUG","time":"2024-08-21T11:20:15.990+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T11:20:15.990+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00161881}
+{"level":"DEBUG","time":"2024-08-21T11:22:57.823+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T11:22:57.823+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00102468}
+{"level":"DEBUG","time":"2024-08-21T11:28:32.921+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T11:28:32.921+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001024873}
+{"level":"DEBUG","time":"2024-08-21T11:32:34.467+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T11:32:34.467+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001044781}
+{"level":"DEBUG","time":"2024-08-21T11:34:16.953+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T11:34:16.953+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001089365}
+{"level":"INFO","time":"2024-08-21T15:07:42.264+0800","caller":"login/main.go:27","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-21T15:07:42.265+0800","caller":"login/main.go:34","msg":"init varify service success"}
+{"level":"INFO","time":"2024-08-21T15:07:42.265+0800","caller":"login/main.go:41","msg":"init route service success"}
+{"level":"INFO","time":"2024-08-21T15:07:42.265+0800","caller":"login/main.go:46","msg":"init snowflake success"}
+{"level":"INFO","time":"2024-08-21T15:07:42.266+0800","caller":"login/main.go:52","msg":"init redis success"}
+{"level":"INFO","time":"2024-08-21T15:07:42.266+0800","caller":"login/main.go:59","msg":"init mysql success"}
+{"level":"DEBUG","time":"2024-08-21T15:08:16.245+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T15:08:16.245+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001402863}
+{"level":"DEBUG","time":"2024-08-21T16:43:07.938+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T16:43:07.939+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.002656406}
+{"level":"DEBUG","time":"2024-08-21T16:46:08.103+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T16:46:08.103+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001083328}
+{"level":"DEBUG","time":"2024-08-21T17:27:43.029+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T17:27:43.029+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.002579488}
+{"level":"DEBUG","time":"2024-08-21T19:45:27.237+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T19:45:27.238+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.002426845}
+{"level":"DEBUG","time":"2024-08-21T19:50:36.094+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T19:50:36.094+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001134607}
+{"level":"DEBUG","time":"2024-08-21T19:52:54.282+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T19:52:54.282+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001123284}
+{"level":"DEBUG","time":"2024-08-21T19:56:44.030+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T19:56:44.030+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001100334}
+{"level":"DEBUG","time":"2024-08-21T19:57:48.959+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T19:57:48.959+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001267924}
+{"level":"DEBUG","time":"2024-08-21T20:00:11.062+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T20:00:11.062+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001206068}
+{"level":"DEBUG","time":"2024-08-21T20:05:24.784+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T20:05:24.785+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001740318}
+{"level":"DEBUG","time":"2024-08-21T20:08:42.434+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T20:08:42.434+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001048332}
+{"level":"DEBUG","time":"2024-08-21T20:11:52.719+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T20:11:52.719+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001383403}
+{"level":"DEBUG","time":"2024-08-21T20:28:54.938+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T20:28:54.939+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001921346}
+{"level":"DEBUG","time":"2024-08-21T20:37:07.861+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T20:37:07.862+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001760006}
+{"level":"DEBUG","time":"2024-08-21T20:46:43.462+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T20:46:43.462+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00117244}
+{"level":"DEBUG","time":"2024-08-21T20:47:59.542+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T20:47:59.542+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.001090328}
+{"level":"DEBUG","time":"2024-08-21T20:59:21.977+0800","caller":"controller/user.go:90","msg":"登录成功"}
+{"level":"INFO","time":"2024-08-21T20:59:21.977+0800","caller":"logger/logger.go:86","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"Mozilla/5.0","errors":"","cost":0.00109095}

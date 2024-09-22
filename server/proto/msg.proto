@@ -1,0 +1,149 @@
+syntax = "proto3";
+package msg;
+
+message Empty {
+// 空，qt或其它插件可能有不兼容原有empty的情况
+}
+
+/* 好友操作 */
+message FriendCtrl {
+  enum Type {
+	FRIEND_ADD  = 0; // 添加
+	FRIEND_DEL  = 1; // 删除
+	FRIEND_AUTH = 2; // 验证好友
+  }
+  bytes content = 1; // 添加删除的附带信箱，
+}
+
+/* 好友状态 */
+message FriendState {
+  enum Type {
+	INPUTING = 0;  // 输入中
+	ONLINE   = 1;  // 在线
+	OFFLINE  = 2;  // 离线
+  }
+  repeated int32 states = 1;
+}
+
+/* 好友消息 */
+message FriendMsg {
+  enum Type {
+	CANCEL  = 0; // 撤回
+	TEXT    = 1; // 文本
+	PICTURE = 2; // 图片
+	VIDEO   = 3; // 视频
+	FILE    = 4; // 文件
+  }
+  int32 type = 1;
+  bytes content = 2;
+}
+
+/* 系统通知 */
+message SystemNotify {
+  enum Type {
+	USER   = 0;
+	FRIEND = 1;
+	GROUP  = 2;
+  }
+  bytes content = 3;
+}
+
+/* 群聊操作 */
+message GroupCtrl {
+  enum Type {
+	GROUP_CREATE     = 0; // 创建
+	GROUP_DELETE     = 1; // 删除
+	GROUP_ADD_MEMBER = 2; // 添加好友
+	GROUP_ENTER      = 3; // 进入
+	GROUP_EXIT       = 4; // 退出
+  }
+  int32 type = 2;
+  bytes content = 3;
+}
+
+/* 群聊消息 */
+message GroupMsg {
+  enum Type {
+	CANCEL  = 0; // 撤回
+	TEXT    = 1; // 文本
+	PICTURE = 2; // 图片
+	VIDEO   = 3; // 视频
+	FILE    = 4; // 文件
+  }
+  bytes content = 8;
+}
+
+/* 拉取消息 */
+message Pull {
+  uint64 local_seq = 1;
+  uint32 limit = 2;
+}
+
+/* 登录 */
+message Log {
+  enum Type {
+	LOGIN   = 0;  // 主动登录
+	LOGOUT  = 1;  // 主动登出
+	KICKOUT = 2;  // 被服务器踢出
+  }
+  string token = 1;
+  string device_id = 2;
+}
+
+enum ProtoType {
+  TypeEmpty = 0;
+  TypeFriendCtrl = 1;
+  TypeFriendState = 2;
+  TypeFriendMsg = 3;
+  TypeSystemNotify = 4;
+  TypeGroupCtrl = 5;
+  TypeGroupMsg = 6;
+  TypePull = 7;
+  TypeLog = 8;
+}
+
+/* 协议 */
+message Protocol {
+  enum Version {
+	VERSION_0 = 0;
+  }
+  ProtoType type  = 1; // 数据类型
+  uint32 version  = 2; // 协议版本
+  uint64 from_uid = 3; // required
+  uint64 to_id    = 4; // required
+  oneof data {         // required
+	Empty        empty  = 10;
+    FriendCtrl   fctrl  = 11;
+	FriendState  fstate = 12;
+	FriendMsg    fmsg   = 13;
+	SystemNotify notify = 14;
+	GroupCtrl    gctrl  = 15;
+	GroupMsg     gmsg   = 16;
+	Pull         pull   = 17;
+	Log          log    = 18;
+  }
+}
+
+////////////////////////////////////////////////////////////////////////////////
+
+message MsgInfo {
+  int64  timestamp = 1; // 发送时间，用来排序
+  string msgid     = 2; // 消息唯一id，信箱中存储唯一msgid
+}
+
+////////////////////////////////////////////////////////////////////////////////
+
+message PushMsg {
+  MsgInfo  info  = 1;
+  Protocol proto = 2;
+}
+
+service GateService {
+  rpc Push(PushMsg) returns(Empty);
+}
+
+////////////////////////////////////////////////////////////////////////////////
+
+service LogicService {
+  rpc Handle(Protocol) returns(MsgInfo);
+}
